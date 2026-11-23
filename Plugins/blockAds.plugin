@@ -1,6 +1,6 @@
 #!name=广告拦截&净化合集
 #!desc=(支持约730款APP/小程序)针对部分APP和小程序广告进行拦截，某些APP要清除缓存或者重新安装拦截广告才会生效！规则明细可以查看本插件的注释
-#!author=奶思[https://github.com/fmz200] · 维护者 @tomopte
+#!author=奶思 · 维护者 @tomopte
 # Original Author: fmz200
 # Original Project: https://github.com/fmz200/wool_scripts
 # Modified by: tomopte
@@ -8,8 +8,8 @@
 # Modification:
 # Disabled blocking rule for mlol.qt.qq.com/go/recommend
 #!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AdblockPlus.png
-#!homepage=https://github.com/fmz200/wool_scripts
-#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/Loon/plugin/blockAds.plugin
+#!homepage=https://github.com/tomopte
+#!raw-url=https://raw.githubusercontent.com/tomopte/Loon/main/Plugins/blockAds.plugin
 #!tg-channel=https://t.me/inaisi
 #!category=奶思的模块
 #!tag=去广告, fmz200, 奶思
