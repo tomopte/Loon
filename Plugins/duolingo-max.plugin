@@ -2,6 +2,7 @@
 #!desc=解锁 Duolingo Max 会员
 #!author=Takagivegeta
 #!icon=https://d35aaqx5ub95lt.cloudfront.net/images/duolingo-touch-icon2.png
+# 维护者：Mark (tomopte)
 
 [MITM]
 hostname = ios-api-*.duolingo.com, ios-api-*.duolingo.cn, api*.duolingo.com, api*.duolingo.cn
