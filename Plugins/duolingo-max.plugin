@@ -1,1 +1,9 @@
-IyFuYW1lPUR1b2xpbmdvIE1heCDop6PplIEKIyFkZXNjPeino+mUgSBEdW9saW5nbyBNYXgg5Lya5ZGYCiMhYXV0aG9yPVRha2FnaXZlZ2V0YQoKW01JVE1dCmhvc3RuYW1lID0gaW9zLWFwaS0qLmR1b2xpbmdvLmNvbSwgaW9zLWFwaS0qLmR1b2xpbmdvLmNuLCBhcGkqLmR1b2xpbmdvLmNvbSwgYXBpKi5kdW9saW5nby5jbgoKW1NjcmlwdF0KaHR0cC1yZXNwb25zZSBeaHR0cHM/OlwvXC8oaW9zLWFwaS1bYS16MC05LV0rfGFwaVxkKylcLmR1b2xpbmdvXC5jKG58b20pXC8yMDIzLTA1LTIzXC8oYmF0Y2h8dXNlcnNcL1teXC8/I10rKSg/Ols/I118JCkgc2NyaXB0LXBhdGg9aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1RBS0FHSVZFR0VUQS9NeVNjcmlwdHMvbWFpbi9saW5nb0R1by9saW5nb0R1by14YU0uanMsIHJlcXVpcmVzLWJvZHk9dHJ1ZSwgdGltZW91dD0xMjAsIHRhZz1kdW9saW5nb19tYXgK
+#!name=Duolingo Max 解锁
+#!desc=解锁 Duolingo Max 会员
+#!author=Takagivegeta
+
+[MITM]
+hostname = ios-api-*.duolingo.com, ios-api-*.duolingo.cn, api*.duolingo.com, api*.duolingo.cn
+
+[Script]
+http-response ^https?:\/\/(ios-api-[a-z0-9-]+|api\d+)\.duolingo\.c(n|om)\/2023-05-23\/(batch|users\/[^\/?#]+)(?:[?#]|$) script-path=https://raw.githubusercontent.com/TAKAGIVEGETA/MyScripts/main/lingoDuo/lingoDuo-xaM.js, requires-body=true, timeout=120, tag=duolingo_max
