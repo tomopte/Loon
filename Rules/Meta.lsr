@@ -1,0 +1,18 @@
+# NAME: Meta
+# AUTHOR: tomopte
+# REPO: https://github.com/tomopte/Loon
+# Meta 全家（除 muse.ai / meta.ai 走美国组外），走时延优选
+DOMAIN,meta.graph.meta.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,threads.com
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,meta.net
+DOMAIN-SUFFIX,oculus.com

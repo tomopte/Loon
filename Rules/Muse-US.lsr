@@ -1,0 +1,8 @@
+# NAME: Muse-US
+# AUTHOR: tomopte
+# REPO: https://github.com/tomopte/Loon
+# Muse / Meta AI，走美国策略组（机场美国节点）
+# 必须放在最前面，盖过其他 Meta / AI 规则
+DOMAIN,hatch-api.meta.ai
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,meta.ai

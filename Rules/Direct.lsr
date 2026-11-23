@@ -1,0 +1,15 @@
+# NAME: Direct
+# AUTHOR: tomopte
+# REPO: https://github.com/tomopte/Loon
+# 直连：苹果、多邻国、抖音相关及其他
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,duolingo.cn
+DOMAIN-SUFFIX,duolingo.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,tiktok-live.oss-cn-chengdu.aliyuncs.com
+DOMAIN,dig.bdurl.net
+DOMAIN,www.googletagmanager.com
+DOMAIN,amdc.m.taobao.com
+DOMAIN,pagead2.googlesyndication.com

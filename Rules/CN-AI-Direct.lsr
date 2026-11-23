@@ -1,0 +1,18 @@
+# NAME: CN-AI-Direct
+# AUTHOR: tomopte
+# REPO: https://github.com/tomopte/Loon
+# 中国 AI，走直连
+# 放在 PROXY-AI 规则之前，避免被国外 AI 规则命中
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,moonshot.ai
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,tongyi.com
+DOMAIN-SUFFIX,chatglm.cn
+DOMAIN-SUFFIX,zhipuai.cn
+DOMAIN-SUFFIX,yiyan.baidu.com
+DOMAIN-SUFFIX,xinghuo.xfyun.cn
+DOMAIN-SUFFIX,coze.cn
+DOMAIN-SUFFIX,volcengine.com

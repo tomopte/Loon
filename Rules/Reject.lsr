@@ -1,0 +1,15 @@
+# NAME: Reject
+# AUTHOR: tomopte
+# REPO: https://github.com/tomopte/Loon
+# 拦截：开屏广告与广告域名
+# 掌上英雄联盟开屏（只拦 platflashbox，platstrongshell 活动弹不拦）
+URL-REGEX,^https://mlol\.qt\.qq\.com/go/recommend/platflashbox
+URL-REGEX,^https://us\.l\.qq\.com/exapp
+URL-REGEX,^https://ossweb-img\.qq\.com/upload/adw/image/[0-9]{3}/202[0-9]{5}/[a-z0-9]{32}\.(jpg|jpeg)
+# 微店开屏
+URL-REGEX,^https://thor\.weidian\.com/ares/home\.splash
+DOMAIN-SUFFIX,imtcp3.weidian.com
+DOMAIN-SUFFIX,byzixibyvusagi.com
+DOMAIN-SUFFIX,juicyads.com
+DOMAIN,ck.juicyads.com
+DOMAIN,zh.stripchat.com
