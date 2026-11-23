@@ -1,0 +1,15 @@
+# Meta 全家（除 muse.ai / meta.ai 走美国组外），走时延优选
+DOMAIN,meta.graph.meta.com,时延优选
+DOMAIN-SUFFIX,facebook.com,时延优选
+DOMAIN-SUFFIX,fb.com,时延优选
+DOMAIN-SUFFIX,fbcdn.net,时延优选
+DOMAIN-SUFFIX,instagram.com,时延优选
+DOMAIN-SUFFIX,cdninstagram.com,时延优选
+DOMAIN-SUFFIX,whatsapp.com,时延优选
+DOMAIN-SUFFIX,whatsapp.net,时延优选
+DOMAIN-SUFFIX,messenger.com,时延优选
+DOMAIN-SUFFIX,threads.net,时延优选
+DOMAIN-SUFFIX,threads.com,时延优选
+DOMAIN-SUFFIX,meta.com,时延优选
+DOMAIN-SUFFIX,meta.net,时延优选
+DOMAIN-SUFFIX,oculus.com,时延优选

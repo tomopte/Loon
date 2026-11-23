@@ -1,0 +1,12 @@
+# 拦截：开屏广告与广告域名
+# 掌上英雄联盟开屏（只拦 platflashbox，platstrongshell 活动弹不拦）
+^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend\/platflashbox reject-dict
+^https?:\/\/us\.l\.qq\.com\/exapp reject-200
+^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) reject-200
+# 微店开屏
+^https?:\/\/thor\.weidian\.com\/ares\/home\.splash reject-dict
+DOMAIN-SUFFIX,imtcp3.weidian.com,REJECT
+DOMAIN-SUFFIX,byzixibyvusagi.com,REJECT
+DOMAIN-SUFFIX,juicyads.com,REJECT
+DOMAIN,ck.juicyads.com,REJECT
+DOMAIN,zh.stripchat.com,REJECT

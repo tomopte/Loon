@@ -1,0 +1,5 @@
+# Muse / Meta AI，走美国策略组（机场美国节点）
+# 必须放在最前面，盖过其他 Meta / AI 规则
+DOMAIN,hatch-api.meta.ai,United States
+DOMAIN-SUFFIX,muse.ai,United States
+DOMAIN-SUFFIX,meta.ai,United States

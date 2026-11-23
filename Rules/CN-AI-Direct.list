@@ -1,0 +1,15 @@
+# 中国 AI，走直连
+# 放在 PROXY-AI 规则之前，避免被国外 AI 规则命中
+DOMAIN-SUFFIX,deepseek.com,DIRECT
+DOMAIN-SUFFIX,doubao.com,DIRECT
+DOMAIN-SUFFIX,kimi.com,DIRECT
+DOMAIN-SUFFIX,moonshot.cn,DIRECT
+DOMAIN-SUFFIX,moonshot.ai,DIRECT
+DOMAIN-SUFFIX,qwen.ai,DIRECT
+DOMAIN-SUFFIX,tongyi.com,DIRECT
+DOMAIN-SUFFIX,chatglm.cn,DIRECT
+DOMAIN-SUFFIX,zhipuai.cn,DIRECT
+DOMAIN-SUFFIX,yiyan.baidu.com,DIRECT
+DOMAIN-SUFFIX,xinghuo.xfyun.cn,DIRECT
+DOMAIN-SUFFIX,coze.cn,DIRECT
+DOMAIN-SUFFIX,volcengine.com,DIRECT

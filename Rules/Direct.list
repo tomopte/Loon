@@ -1,0 +1,12 @@
+# 直连：苹果、多邻国、抖音相关及其他
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,duolingo.cn,DIRECT
+DOMAIN-SUFFIX,duolingo.com,DIRECT
+DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+DOMAIN-SUFFIX,tiktok-live.oss-cn-chengdu.aliyuncs.com,DIRECT
+DOMAIN,dig.bdurl.net,DIRECT
+DOMAIN,www.googletagmanager.com,DIRECT
+DOMAIN,amdc.m.taobao.com,DIRECT
+DOMAIN,pagead2.googlesyndication.com,DIRECT
