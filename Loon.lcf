@@ -6,7 +6,7 @@
 # ==========================================
 #
 # 特色功能
-# 1. AI 分流：Google / OpenAI / Claude 等国外 AI 默认走 PROXY-AI 策略组，
+# 1. AI 分流：Google / OpenAI / Claude 等国外 AI 默认走 AI 策略组，
 #    组内有美国 / 日本 / 香港三个自动策略组可选，国内 AI（DeepSeek / 豆包 / Kimi / 通义等）走直连，互不干扰。
 # 2. Muse 优先：muse.ai / meta.ai / hatch-api.meta.ai 走美国策略组（United States），
 #    其余 Meta 服务（Facebook / Instagram / WhatsApp / Threads 等）走时延优选。
@@ -20,7 +20,7 @@
 # 7. 兜底：FINAL 走时延优选。
 #
 # 使用方法
-# 1. 在 [Remote Proxy] 填入自己的机场订阅，PROXY-AI 组里选美国 / 日本 / 香港节点。
+# 1. 在 [Remote Proxy] 填入自己的机场订阅，AI 组里选美国 / 日本 / 香港节点。
 # 2. 在 Loon 里导入本文件，更新远程规则和插件后启用。
 # 3. 不含任何个人订阅链接、节点地址和账号信息，可直接分享。
 #
@@ -141,7 +141,7 @@ United States = url-test,Sub-US,interval = 60,tolerance = 50,img-url = https://r
 
 Rare Areas = select,Sub-RA,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/stonehenge.png
 
-PROXY-AI = select,United States,Japan,Hong Kong,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/Anthropic.png
+AI = select,United States,Japan,Hong Kong,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/Anthropic.png
 
 [Proxy Chain]
 
@@ -159,12 +159,12 @@ FINAL,时延优选
 # 第三方远程规则已移除，如需国内直连分流请自行添加
 https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Muse-US.lsr, policy=United States, tag=Muse-US, enabled=true
 https://raw.githubusercontent.com/tomopte/Loon/main/Rules/CN-AI-Direct.lsr, policy=DIRECT, tag=CN-AI-Direct, enabled=true
-https://raw.githubusercontent.com/tomopte/Loon/main/Rules/AI-Proxy.lsr, policy=PROXY-AI, tag=AI-Proxy, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/AI-Proxy.lsr, policy=AI, tag=AI-Proxy, enabled=true
 https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Meta.lsr, policy=时延优选, tag=Meta, enabled=true
 https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Direct.lsr, policy=DIRECT, tag=Direct, enabled=true
 https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Reject.lsr, policy=REJECT, tag=Reject, enabled=true
 https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Upstream/filter.lsr, policy=REJECT, tag=filter.lsr, enabled=true
-https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Upstream/AI.lsr, policy=PROXY-AI, tag=AI, enabled=false
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Upstream/AI.lsr, policy=AI, tag=AI, enabled=false
 https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Upstream/Douyin.lsr, policy=DIRECT, tag=Douyin, enabled=true
 
 [Host]
