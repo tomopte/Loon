@@ -120,11 +120,6 @@ Sub-RA = NameRegex, FilterKey = "^(?=.*(.))(?!.*((?i)🇭🇰|🇯🇵|🇸🇬|
 
 [Proxy Group]
 
-
-
-
-
-
 手动选择 = select,DIRECT,Hong Kong,Japan,Singapore,United States,Rare Areas,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/relay.png
 
 时延优选 = url-test,Hong Kong,Japan,Singapore,United States,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/loadbalance.png
