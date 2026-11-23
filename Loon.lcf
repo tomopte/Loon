@@ -1,0 +1,194 @@
+# ==========================================
+# Loon Configuration
+# Maintained by drifthel
+# Threads: https://www.threads.com/@drifthel
+# GitHub: https://github.com/drifthel/Loon
+# ==========================================
+#
+# 特色功能
+# 1. 免费 AI 分流：Google / OpenAI / Claude 等国外 AI 走免费 ur.io 节点（PROXY-AI 策略组），
+#    国内 AI（DeepSeek / 豆包 / Kimi / 通义等）走直连，互不干扰。
+# 2. Muse 优先：muse.ai / meta.ai / hatch-api.meta.ai 走美国策略组（United States），
+#    其余 Meta 服务（Facebook / Instagram / WhatsApp / Threads 等）走时延优选。
+# 3. 规则仓库化：常用分流规则按分类放在 Rules/*.lsr，改规则不用改配置，
+#    Loon 里刷新远程规则即生效。
+# 4. 地区自动分组：订阅节点按名称自动分到香港 / 日本 / 新加坡 / 美国 / 稀有地区，
+#    时延优选自动挑最快节点。
+# 5. Duolingo Max 解锁：自带插件解锁多邻国 Max 会员（国区端点已适配）。
+# 6. 去广告：自维护 blockAds 插件，拦截掌上英雄联盟、微店开屏等广告，
+#    活动弹（platstrongshell）不拦，活动页正常显示。
+# 7. 兜底：FINAL 走时延优选。
+#
+# 使用方法
+# 1. 在 [Proxy] 填入自己的 ur.io 免费 HTTPS 代理，在 [Remote Proxy] 填入自己的机场订阅。
+# 2. 在 Loon 里导入本文件，更新远程规则和插件后启用。
+# 3. 不含任何个人订阅链接、节点地址和账号信息，可直接分享。
+#
+[General]
+# IP查询模式
+ip-mode = v4-only
+
+# TUN IPv6配置
+ipv6-vif = off
+
+# DNS server
+dns-server = system,223.5.5.5,223.6.6.6,119.29.29.29,114.114.114.114
+
+# DoH server
+doh-server = https://dns.alidns.com/dns-query,https://sm2.doh.pub/dns-query
+
+# DoH3 server
+doh3-server = h3://dns.alidns.com/dns-query
+
+# DoQ server
+doq-server = quic://dns.alidns.com:853
+
+# Wi-Fi共享开启时http服务的端口
+wifi-access-http-port = 6154
+
+# Wi-Fi共享开启时socks5服务的端口
+wifi-access-socks5-port = 6153
+
+# 是否允许Wi-Fi下共享网络
+allow-wifi-access = false
+
+# 是否开启对局域网中其他设备的请求进行MITM
+mitm-on-wifi-access = false
+
+# 节点测速时的超时秒数
+test-timeout = 5
+
+# 网络接口
+interface-mode = auto
+
+# 域名拦截行为
+domain-reject-mode = DNS
+
+# DNS拦截方式
+dns-reject-mode = LoopbackIP
+
+# SNI辅助规则匹配
+sni-sniffing = true
+
+# 直连时丢弃STUN
+disable-stun = true
+
+# UDP回落策略
+udp-fallback-mode = REJECT
+
+# 策略切换时关闭连接
+disconnect-on-policy-change = false
+
+# 直连测试URL
+internet-test-url = http://connectivitycheck.platform.hicloud.com/generate_204
+
+# 节点测试URL
+proxy-test-url = http://latency-test.skk.moe/endpoint
+
+# 资源解析器
+resource-parser = https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-parser.loon.min.js
+
+# GeoIP数据库
+geoip-url = https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb
+
+# ASN数据库
+ipasn-url = https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb
+
+# 绕过代理
+skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+
+# 绕过路由
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+
+[Proxy]
+# [Proxy] 免费节点示例：把下面换成你自己的 ur.io 免费 HTTPS 代理
+# ur-US-free = https, YOUR-URIO-HOST.fireside.bringyour.com, 7131, sni=YOUR-URIO-HOST.fireside.bringyour.com
+
+[Remote Proxy]
+# 你的机场订阅请粘贴回这里（原订阅链接不要发给别人，我这里留空）
+
+[Remote Filter]
+Sub-ALL = NameRegex, FilterKey = "^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|好友|失联|总计|重置|重新|设置|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic)(\d+)?\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
+
+Sub-HK = NameRegex, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+
+Sub-JP = NameRegex, FilterKey = "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|JPN|Japan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+
+Sub-SG = NameRegex, FilterKey = "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|SGP|Singapore)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+
+Sub-US = NameRegex, FilterKey = "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|USA|United States)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+
+Sub-RA = NameRegex, FilterKey = "^(?=.*(.))(?!.*((?i)🇭🇰|🇯🇵|🇸🇬|🇺🇸|香港|日本|川日|东京|大阪|泉日|埼玉|新加坡|狮|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|好友|失联|总计|重置|重新|设置|回国|校园|游戏|🎮|(\b(HK|HKG|Hong|MO|JP|JPN|Japan|SG|SGP|Singapore|US|USA|United States|America|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic)(\d+)?\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
+
+[Proxy Group]
+
+
+
+
+
+
+手动选择 = select,DIRECT,Hong Kong,Japan,Singapore,United States,Rare Areas,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/relay.png
+
+时延优选 = url-test,Hong Kong,Japan,Singapore,United States,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/loadbalance.png
+
+Global = select,Sub-ALL,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/londoneye.png
+
+Hong Kong = url-test,Sub-HK,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/skylines.png
+
+Japan = url-test,Sub-JP,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/torii.png
+
+Singapore = url-test,Sub-SG,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/merlion.png
+
+United States = url-test,Sub-US,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/christtheredeemer.png
+
+Rare Areas = select,Sub-RA,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/stonehenge.png
+
+PROXY-AI = select,ur-US-free,DIRECT,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/Anthropic.png
+
+[Proxy Chain]
+
+
+[Rule]
+# 本地只留置顶规则，其余分流已移到仓库 Rules/ 远程规则，按分类管理
+# ===== Muse 优先：必须放在最前面 =====
+DOMAIN,hatch-api.meta.ai,United States
+DOMAIN-SUFFIX,muse.ai,United States
+DOMAIN-SUFFIX,meta.ai,United States
+
+FINAL,时延优选
+
+[Remote Rule]
+# 第三方远程规则已移除，如需国内直连分流请自行添加
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Muse-US.lsr, policy=United States, tag=Muse-US, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/CN-AI-Direct.lsr, policy=DIRECT, tag=CN-AI-Direct, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/AI-Proxy.lsr, policy=PROXY-AI, tag=AI-Proxy, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Meta.lsr, policy=时延优选, tag=Meta, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Direct.lsr, policy=DIRECT, tag=Direct, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Reject.lsr, policy=REJECT, tag=Reject, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Upstream/filter.lsr, policy=REJECT, tag=filter.lsr, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Upstream/AI.lsr, policy=PROXY-AI, tag=AI, enabled=false
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Upstream/Douyin.lsr, policy=DIRECT, tag=Douyin, enabled=true
+
+[Host]
+iosapps.itunes.apple.com = iosapps.itunes.apple.com.download.ks-cdn.com
+updates.cdn-apple.com = updates.cdn-apple.com.download.ks-cdn.com
+updates.g.aaplimg.com = updates.cdn-apple.com.download.ks-cdn.com
+
+[Rewrite]
+
+
+[Script]
+
+
+[Remote Script]
+
+
+[Plugin]
+# 第三方 .lpx 插件已移除，如需去广告插件请自行添加
+https://raw.githubusercontent.com/tomopte/Loon/main/Plugins/duolingo-max.plugin, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Plugins/blockAds.plugin, enabled=true
+https://rucu6.pages.dev/Plugins/webpage.lpx, enabled=true
+https://rucu6.pages.dev/Plugins/myblockads.lpx, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.lnplugin, enabled=true
+https://loon.103516.xyz/Plugin/Sub-Store.lpx, policy=时延优选, enabled=true
+https://loon.103516.xyz/Plugin/BoxJs.lpx, policy=时延优选, enabled=true
