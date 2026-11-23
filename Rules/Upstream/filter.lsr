@@ -1,0 +1,3887 @@
+#!name=广告拦截合集-不要设置策略偏好
+#!desc=(F)针对部分APP和小程序广告进行拦截，某些APP要清除缓存或者重新安装APP，拦截广告才会生效！
+#!author=奶思
+#!homepage=https://github.com/fmz200/wool_scripts
+#!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/gif/naisi-01.gif
+#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/filter/filter.list
+#!tg-channel=https://t.me/inaisi
+#!date=2026-06-04 17:17:00
+#!support=约9760行
+#############################################
+# "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
+# "reject-200"    策略返回 HTTP 状态码 200,不附带任何额外内容
+# "reject-img"    策略返回 HTTP 状态码 200,同时附带 1px gif
+# "reject-dict"   策略返回 HTTP 状态码 200,同时附带一个空的 JSON 对象
+# "reject-array"  策略返回 HTTP 状态码 200,同时附带一个空的 JSON 数组
+# 1.2.3.4/24      /24表示网络的子网掩码长度，即前24位是网络部分，后8位是主机部分。这种表示法常用于描述特定范围内的IP地址
+# 6.7.8.9/32      /32表示整个32位的IP地址都用于表示这一个地址，即单独的一个IP地址
+#############################################
+
+
+
+# >>>>>>>>>>>>>>> ✅ 0 ✅ <<<<<<<<<<<<<<
+
+
+
+# >>>>>>>>>>>>>>> ✅ 1 ✅ <<<<<<<<<<<<<<
+# > 12123
+host-suffix, v3.fstats.xyz
+host-suffix, wss.haoyundmn.com
+host-suffix, new.xiongzhangad.com
+host-suffix, alexametrics.com
+host-keyword, in-page-push
+
+# > 17173（网络游戏门户网站）
+host-suffix, ad.17173.com
+host-suffix, cvda.17173.com
+host-suffix, log1.17173.com
+host-suffix, vda.17173.com
+host-suffix, s.17173cdn.com
+
+# > 178游戏网
+host-suffix, market.178.com
+host-suffix, tuiguang.178.com
+
+# > 18183游戏网
+host-suffix, img1.18183.com
+host-suffix, eezdx.erc.18183.com
+host-suffix, zpe.klre.18183.com
+
+# > 1905电影网
+host-suffix, mlog.m1905.cn
+host-suffix, vodlog.m1905.cn
+host-suffix, afp.m1905.com
+host-suffix, counter.m1905.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ 2 ✅ <<<<<<<<<<<<<<
+# > 2345网址导航
+host-suffix, dl.2345.com
+host-suffix, download.2345.com
+host-suffix, ggcode.2345.com
+host-suffix, houtai.2345.com
+host-suffix, jifen.2345.com
+host-suffix, minipage.2345.com
+host-suffix, wan.2345.com
+host-suffix, zhushou.2345.com
+host-suffix, tg.jifen.2345.com
+host-suffix, update.minipage.2345.com
+host-suffix, g.wan.2345.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ 3 ✅ <<<<<<<<<<<<<<
+# > 360
+host-suffix, pjogndc8ixoidna.360doc.cn
+host-suffix, w5sac788c1.360doc.cn
+host-suffix, 360shopping.com.cn
+host-suffix, cps.360buy.com
+host-suffix, eclick.360doc.com
+host-suffix, ad.360in.com
+host-suffix, dl.360safe.com
+host-suffix, kuaikan.netmon.360safe.com
+host-suffix, ini.update.360safe.com
+host-suffix, display.360totalsecurity.com
+host-suffix, hot.m.shouji.360tpcdn.com
+host-suffix, ad.360yield.com
+host-suffix, guess.h.qhimg.com
+host-suffix, top.h.qhimg.com
+host-suffix, jspassport.ssl.qhimg.com
+host-suffix, top.h.qhmsg.com
+host-suffix, hs.qhupdate.com
+host-suffix, res.qhupdate.com
+host-suffix, s.qhupdate.com
+host-suffix, haostat.qihoo.com
+host-suffix, sh.qihoo.com
+host-suffix, s.sh.qihoo.com
+host-suffix, spro.so.com
+host-suffix, mbrowser.news.so.com
+host-suffix, tran.news.so.com
+
+# > 365日历
+host-suffix, ad.365rili.com
+
+# > 39健康网
+host-suffix, app-g.39.net
+host-suffix, d.39.net
+host-suffix, dpvc.39.net
+host-suffix, thetestpage.39.net
+
+
+
+# >>>>>>>>>>>>>>> ✅ 4 ✅ <<<<<<<<<<<<<<
+
+
+
+# >>>>>>>>>>>>>>> ✅ 5 ✅ <<<<<<<<<<<<<<
+# > 51CTO学堂
+host-suffix, gg.51cto.com
+host-suffix, gg2.51cto.com
+host-suffix, gg3.51cto.com
+
+# > 58同城
+host, track.58.com
+host, tracklog.58.com
+host-suffix, 58mingri.cn
+host-suffix, 58mingtian.cn
+host-suffix, sc.58mingtian.cn
+host-suffix, t1.58cdn.com.cn
+host-suffix, t2.58cdn.com.cn
+host-suffix, t3.58cdn.com.cn
+host-suffix, adshow.58.com
+host-suffix, brandshow.58.com
+host-suffix, jing.58.com
+host-suffix, jumpluna.58.com
+host-suffix, news.58.com
+host-suffix, track.58.com
+host-suffix, tracklog.58.com
+host-suffix, zzpush.58.com
+host-suffix, jump.luna.58.com
+
+
+# > 58汽车
+host-suffix, 58.xgo.com.cn
+host-suffix, imp.xgo.com.cn
+
+
+
+# >>>>>>>>>>>>>>> ✅ 6 ✅ <<<<<<<<<<<<<<
+
+
+
+# >>>>>>>>>>>>>>> ✅ 7 ✅ <<<<<<<<<<<<<<
+
+
+
+# >>>>>>>>>>>>>>> ✅ 8 ✅ <<<<<<<<<<<<<<
+
+
+
+# >>>>>>>>>>>>>>> ✅ 9 ✅ <<<<<<<<<<<<<<
+# 9to5Mac
+# 网页版去广告
+host-suffix, ad-delivery.net
+host-suffix, spot.im
+host-suffix, revjet.com
+host-suffix, dotomi.com
+host-suffix, intentiq.com
+host-suffix, temu.com
+host-suffix, adsafeprotected.com
+host-suffix, optable.co
+host-suffix, stackadapt.com
+host-suffix, gumgum.com
+host-suffix, kargo.com
+host-suffix, a-mo.net
+host-suffix, 3lift.com
+host-suffix, bidswitch.net
+host-suffix, ninthdecimal.com
+host-suffix, turn.com
+host-suffix, 33across.com
+host-suffix, aidemsrv.com
+host-suffix, js7k.com
+host-suffix, sharethrough.com
+host-suffix, 1rx.io
+host-suffix, tynt.com
+host-suffix, a47b.com
+host-suffix, teads.tv
+host-suffix, logger.adthrive.com
+host-suffix, ads.stickyadstv.com
+host-suffix, adnxs.com
+host-suffix, presage.io
+host-suffix, mradx.net
+
+
+
+# >>>>>>>>>>>>>>> ✅ A ✅ <<<<<<<<<<<<<<
+# > Adobe
+host-suffix, 3dns-2.adobe.com
+host-suffix, 3dns-3.adobe.com
+host-suffix, activate.adobe.com
+host-suffix, activate-sea.adobe.com
+host-suffix, activate-sjc0.adobe.com
+host-suffix, adobe-dns.adobe.com
+host-suffix, adobe-dns-2.adobe.com
+host-suffix, adobe-dns-3.adobe.com
+host-suffix, ereg.adobe.com
+host-suffix, get3.adobe.com
+host-suffix, hl2rcv.adobe.com
+host-suffix, practivate.adobe.com
+host-suffix, wip3.adobe.com
+host-suffix, wwis-dubc1-vip60.adobe.com
+host-suffix, lm.licenses.adobe.com
+host-suffix, na2m-pr.licenses.adobe.com
+host-suffix, na1r.services.adobe.com
+host-suffix, hlrcv.stage.adobe.com
+host-suffix, activate.wip3.adobe.com
+host-suffix, ereg.wip3.adobe.com
+host-suffix, lmlicenses.wip4.adobe.com
+# Marketo
+host-suffix, marketo.com
+host-suffix, asia.marketo.com
+host-suffix, pages2.marketo.com
+host-suffix, marketo.net
+host-suffix, munchkin.marketo.net
+
+# > Adobe Flash China Special Edition
+host, geo2.adobe.com
+
+# > Akamai
+host-suffix, appnext-a.akamaihd.net
+host-suffix, lbstatic-a.akamaihd.net
+host-suffix, toots-a.akamaihd.net
+
+# > Apple
+host, advertising.apple.com
+host, api-adservices.apple.com
+host, apple.comscoreresearch.com
+host, banners.itunes.apple.com
+host, iad.apple.com
+host, iadcontent.apple.com
+host, iadctest.qwapi.com
+host, iadmoo.apple.com
+host, iadworkbench.apple.com
+host, launch.apple.com
+host, metrics.apple.com
+host, qwapi.apple.com
+host, securemetrics.apple.com
+host, webproxy-advp.iad-apple.com
+host, webproxy-advp.iad-apple.com.akadns.net
+host-suffix, advp.apple.com
+host-suffix, iadsdk.apple.com
+# 安全浏览限制解除
+host, lookup.api.bsb.baidu.com
+host, proxy.safebrowsing.apple
+host, safebrowsing.g.applimg.com
+host, safebrowsing.googleapis.com
+host, safebrowsing.urlsec.qq.com
+host, token.safebrowsing.apple
+host, vs6.bj2ct.u3.ucweb.com
+host-suffix, safebrowsing.apple
+host-suffix, u3.ucweb.com
+
+# > Amazon
+host-suffix, amazon-adsystem.com
+host-suffix, mads.amazon.com
+host-suffix, sdb.amazonaws.com
+host-suffix, airpushmarketing.s3.amazonaws.com
+host-suffix, epowernetworktrackerimages.s3.amazonaws.com
+host-suffix, gateways.s3.amazonaws.com
+host-suffix, kbnetworkz.s3.amazonaws.com
+host-suffix, secretmedia.s3.amazonaws.com
+host-suffix, smblock.s3.amazonaws.com
+host-suffix, whistleout.s3.amazonaws.com
+
+# > AOL（美国在线）
+host-suffix, adinfo.aol.com
+host-suffix, dynamic.aol.com
+host-suffix, free.aol.com
+host-suffix, mads.aol.com
+host-suffix, cdn.komentary.aol.com
+
+# > 爱拍
+host-suffix, apas.aipai.com
+host-suffix, atiws.aipai.com
+host-suffix, mlog.aipai.com
+
+# > 爱卡汽车网
+host-suffix, d0.xcar.com.cn
+host-suffix, dw.xcar.com.cn
+host-suffix, pv.xcar.com.cn
+
+# > 阿里系
+# host-suffix, alistatic.cn, reject
+# host-suffix, cnzz.cn, reject
+# host-suffix, sinaaliyun.cn, reject
+# host-suffix, taobaoaliyun.cn, reject
+# host-suffix, taobayun.cn, reject
+# host-suffix, ucaliyun.cn, reject
+# host-suffix, p4p.1688.com, reject
+# host-suffix, aecpm.alicdn.com, reject
+# host-suffix, afp.alicdn.com, reject
+# host-suffix, afpmm.alicdn.com, reject
+# host-suffix, asearch.alicdn.com, reject
+# host-suffix, atanx.alicdn.com, reject
+# host-suffix, atanx2.alicdn.com, reject
+# host-suffix, gen.alicdn.com, reject
+# host-suffix, gma.alicdn.com, reject
+# host-suffix, nbsdk-baichuan.alicdn.com, reject
+# host-suffix, strip.alicdn.com, reject
+# host-suffix, unidesk.alicdn.com, reject
+# host-suffix, g.aligames.com, reject
+# host-suffix, optimus-ads.amap.com.w.alikunlun.com, reject
+# host-suffix, osfota.cdn.aliyun.com, reject
+# host-suffix, oa-panther.data.aliyun.com, reject
+# host-suffix, dressimage.img-cn-beijing.aliyuncs.com, reject
+# host-suffix, adash.man.aliyuncs.com, reject
+# host-suffix, ooss.oss.aliyuncs.com, reject
+# host-suffix, cc58.oss-cn-beijing.aliyuncs.com, reject
+# host-suffix, img-dsp.oss-cn-beijing.aliyuncs.com, reject
+# host-suffix, xz-development.oss-cn-beijing.aliyuncs.com, reject
+# host-suffix, com-eonsun-owl.oss-cn-hangzhou.aliyuncs.com, reject
+# host-suffix, com-eonsun-owl-user.oss-cn-hangzhou.aliyuncs.com, reject
+# host-suffix, cootek-dialer-download.oss-cn-hangzhou.aliyuncs.com, reject
+# host-suffix, fs-uc-nearme-com-cn.oss-cn-hangzhou.aliyuncs.com, reject
+# host-suffix, cdn-ads.oss-cn-shanghai.aliyuncs.com, reject
+# host-suffix, jiayi1.oss-cn-shanghai.aliyuncs.com, reject
+# host-suffix, aliyuncss.com, reject
+# host-suffix, aliyunxin.com, reject
+# host-suffix, p4psearch.china.alibaba.com, reject
+# host-suffix, crm-eve.b2b.alibaba-inc.com, reject
+# host-suffix, huichuan-mc.sm.cn, reject
+# host-suffix, image.zzd.sm.cn, reject
+# host-suffix, tanx.com, reject
+# host-suffix, mmstat.com, reject
+# host-suffix, ac.mmstat.com, reject
+# host-suffix, go.mmstat.com, reject
+# host-suffix, gxb.mmstat.com, reject
+# host-suffix, hz.mmstat.com, reject
+# host-suffix, p3p.mmstat.com, reject
+# host-suffix, res.mmstat.com, reject
+# host-suffix, yt.mmstat.com, reject
+# host-suffix, tbaocdn.com, reject
+# host-suffix, strip.taobaocdn.com, reject
+# host-suffix, alog.umeng.co, reject
+# host-suffix, alog.umeng.com, reject
+# host-suffix, alogs.umeng.com, reject
+# host-suffix, ar.umeng.com, reject
+# host-suffix, errlog.umeng.com, reject
+# host-suffix, plbslog.umeng.com, reject
+# host-suffix, ulogs.umeng.com, reject
+# host-suffix, alog.umengcloud.com, reject
+# host-suffix, alogs.umengcloud.com, reject
+# host-suffix, ulogs.umengcloud.com, reject
+# host-suffix, hao.uc.cn, reject
+# host-suffix, woodpecker.uc.cn, reject
+# host-suffix, api.mp.uc.cn, reject
+# host-suffix, api.open.uc.cn, reject
+# host-suffix, puds.test.uae.uc.cn, reject
+# host-suffix, picture.duokan.com, reject
+# host-suffix, v2.fm.n.duokanbox.com, reject
+# host-suffix, actives.youku.com, reject
+# host-suffix, dmapp.youku.com, reject
+# host-suffix, hz.youku.com, reject
+# host-suffix, lstat.youku.com, reject
+# host-suffix, mobilemsg.youku.com, reject
+# host-suffix, msg.youku.com, reject
+# host-suffix, myes.youku.com, reject
+# host-suffix, passport-log.youku.com, reject
+# host-suffix, stat.youku.com, reject
+# host-suffix, tdrec.youku.com, reject
+# host-suffix, wan.youku.com, reject
+# host-suffix, ykatr.youku.com, reject
+# host-suffix, ykrec.youku.com, reject
+# host-suffix, ad.api.3g.youku.com, reject
+# host-suffix, a-dxk.play.api.3g.youku.com, reject
+# host-suffix, store.tv.api.3g.youku.com, reject
+# host-suffix, store.xl.api.3g.youku.com, reject
+# host-suffix, das.api.youku.com, reject
+# host-suffix, val.api.youku.com, reject
+# host-suffix, ipm.atm.youku.com, reject
+# host-suffix, service.danmu.youku.com, reject
+# host-suffix, dl.g.youku.com, reject
+# host-suffix, p.l.youku.com, reject
+# host-suffix, r.l.youku.com, reject
+# host-suffix, v.l.youku.com, reject
+# host-suffix, urchin.lstat.youku.com, reject
+# host-suffix, dev-push.m.youku.com, reject
+# host-suffix, push.m.youku.com, reject
+# host-suffix, sdk.m.youku.com, reject
+# host-suffix, ad.mobile.youku.com, reject
+# host-suffix, das.mobile.youku.com, reject
+# host-suffix, gamex.mobile.youku.com, reject
+# host-suffix, ad.api.mobile.youku.com, reject
+# host-suffix, sdk.api.gamex.mobile.youku.com, reject
+# host-suffix, test.ott.youku.com, reject
+# host-suffix, s.p.youku.com, reject
+# host-suffix, hudong.pl.youku.com, reject
+# host-suffix, huodong.pl.youku.com, reject
+# host-suffix, b.smartvideo.youku.com, reject
+# host-suffix, huodong.vip.youku.com, reject
+# host-suffix, c.yes.youku.com, reject
+# host-suffix, m.yes.youku.com, reject
+# host-suffix, app-monitor.ele.me, reject
+# host-suffix, client-api.ele.me, reject
+# host-suffix, grand.ele.me, reject
+# host-suffix, mobile-pubt.ele.me, reject
+# host-suffix, newton-api.ele.me, reject
+
+# > 阿里云
+IP-CIDR, 203.107.1.1/24
+
+# > 爱奇艺
+host, api.iqiyi.com
+host, cr-status.iqiyi.com
+host, f74f7f7765f8a2f6.ngaa.net.cn
+host, ef-dongfeng.tanx.com
+host, iqiyim.adtrack.enlightent.cn
+host, dig.bdurl.net
+host, t7z.cupid.iqiyi.com
+host, t7z.cupid.ptqy.gitv.tv
+host-suffix, cupid.iqiyi.com
+host-suffix, t7z.cupid.iqiyi.com
+host-suffix, static-s.iqiyi.com
+host-suffix, a.ckm.iqiyi.com
+host-suffix, ad.m.iqiyi.com
+host-suffix, afp.iqiyi.com
+host-suffix, api.cupid.iqiyi.com
+host-suffix, api.cupid.qiyi.com
+host-suffix, c.uaa.iqiyi.com
+host-suffix, cloudpush.iqiyi.com
+host-suffix, cm.passport.iqiyi.com
+host-suffix, count.game.pps.tv
+host-suffix, cupid.iqiyi.com
+host-suffix, emoticon.sns.iqiyi.com
+host-suffix, gamecenter.iqiyi.com
+host-suffix, mbdlog.iqiyi.com
+host-suffix, msg.iqiyi.com
+host-suffix, msg.video.qiyi.com
+host-suffix, msg2.video.qiyi.com
+host-suffix, static.g.iqiyi.com
+host-suffix, static.g.ppstream.com
+host-suffix, store.iqiyi.com
+host-suffix, tracker.sns.iqiyi.com
+host-suffix, yuedu.iqiyi.com
+host-suffix, msga.cupid.iqiyi.com
+host-suffix, nl.notice.iqiyi.com
+host-suffix, nl.rcd.iqiyi.com
+host-suffix, notice.iqiyi.com
+host-suffix, noxagile.duapp.com
+host-suffix, paopao.iqiyi.com
+host-suffix, policy.video.iqiyi.com
+host-suffix, ifacelog.iqiyi.com
+IP-CIDR, 203.107.63.154/32
+IP-CIDR, 101.227.97.240/32
+IP-CIDR, 101.227.200.11/32
+IP-CIDR, 101.227.200.28/32
+IP-CIDR, 124.192.153.42/32
+
+
+
+# >>>>>>>>>>>>>>> ✅ B ✅ <<<<<<<<<<<<<<
+# > bshare
+host-suffix, bshare.cn
+host-suffix, bshare.optimix.asia
+
+# > Braze
+host-suffix, iad.appboy.com
+host-suffix, iad-03.appboy.com
+host-suffix, iad-01.braze.com
+host-suffix, iad-02.braze.com
+host-suffix, iad-03.braze.com
+host-suffix, iad-04.braze.com
+host-suffix, iad-05.braze.com
+host-suffix, iad-06.braze.com
+host-suffix, iad-08.braze.com
+
+# > 百度
+host-suffix, duapps.com
+host-suffix, cpro.baidu.com
+host-suffix, pos.baidu.com
+host, afd.baidu.com
+host, als.baidu.com
+host, duclick.baidu.com
+host, mobads.baidu.com
+host, mobads-logs.baidu.com
+host, nadvideo2.baidu.com
+host, nsclick.baidu.com
+host-suffix, bce.baidu.com
+host-suffix, bar.baidu.com
+host-suffix, baiduyubaidu.com
+host-suffix, baidutv.baidu.com
+host-suffix, baichuan.baidu.com
+host-suffix, appc.baidu.com
+host-suffix, anquan.baidu.com
+host-suffix, adscdn.baidu.com
+host-suffix, adm.baidu.com
+host-suffix, ad.player.baidu.com
+host-suffix, a.baidu.com
+host-suffix, antivirus.baidu.com
+host-suffix, baifen.music.baidu.com
+host-suffix, banlv.baidu.com
+host-suffix, cm.baidu.com
+host-suffix, cpro.zhidao.baidu.com
+host-suffix, cleaner.baidu.com
+host-suffix, cjhq.baidu.com
+host-suffix, cb.baidu.com
+host-suffix, c.baidu.com
+host-suffix, btlaunch.baidu.com
+host-suffix, bdplus.baidu.com
+host-suffix, cbjs.baidu.com
+host-suffix, cpro2.baidu.com
+host-suffix, cpu-admin.baidu.com
+host-suffix, 10086.cn.baidu.cdn.yiwk.com
+host-suffix, 360baidus.com
+host-suffix, app.ibaiducdn.com
+host-suffix, baidu.cybcyw.com
+host-suffix, baidu.dsp.tansuotv.com
+host-suffix, baidu.greenxf.cn
+host-suffix, baidu.jz5u.net
+host-suffix, baiduace.com
+host-suffix, baidujs.cnys.com
+host-suffix, baidulao.com
+host-suffix, baidut.github.io
+host-suffix, baidu-union-js.xiachufang.com
+host-suffix, baidu-union-pos.xiachufang.com
+host-suffix, baiduzhidahao.cc
+host-suffix, cpro.baidu.cn
+host-suffix, crs.baidu.com
+host-suffix, datax.baidu.com
+host-suffix, dl.client.baidu.com
+host-suffix, dl.ops.baidu.com
+host-suffix, dl1sw.baidu.com
+host-suffix, dl2.bav.baidu.com
+host-suffix, dlsw.baidu.com
+host-suffix, dlsw.br.baidu.com
+host-suffix, dl-vip.bav.baidu.com
+host-suffix, dl-vip.pcfaster.baidu.co.th
+host-suffix, download.bav.baidu.com
+host-suffix, download.sd.baidu.com
+host-suffix, drmcmm.baidu.com
+host-suffix, duiwai.baidu.com
+host-suffix, dxp.baidu.com
+host-suffix, dzl.baidu.com
+host-suffix, e.baidu.com
+host-suffix, eclick.baidu.com
+host-suffix, eiv.baidu.com
+host-suffix, em.baidu.com
+host-suffix, entry.baidu.com
+host-suffix, ers.baidu.com
+host-suffix, fclick.baidu.com
+host-suffix, feed.baidu.com
+host-suffix, fexclick.baidu.com
+host-suffix, g.baidu.com
+host-suffix, gimg.baidu.com
+host-suffix, guanjia.baidu.com
+host-suffix, hc.baidu.com
+host-suffix, hdj.baidu.com
+host-suffix, hpd.baidu.com
+host-suffix, idm-su.baidu.com
+host-suffix, iebar.baidu.com
+host-suffix, ikcode.baidu.com
+host-suffix, iwanad.baidu.com
+host-suffix, j.br.baidu.com
+host-suffix, jb.mbaidu.top
+host-suffix, js.mbaidu.top
+host-suffix, kstj.baidu.com
+host-suffix, m.baidu.com.yiqisee.cn
+host-suffix, m.baidu.com.zhiduo.org
+host-suffix, m1.baidu.com
+host-suffix, ma.baidu.com
+host-suffix, mpro.baidu.com
+host-suffix, msite.baidu.com
+host-suffix, mssp.baidu.com
+host-suffix, mtj.baidu.com
+host-suffix, neirong.baidu.com
+host-suffix, nlog.baidu.com
+host-suffix, nsclickvideo.baidu.com
+host-suffix, openrcv.baidu.com
+host-suffix, paimgcdn.baidu.com
+host-suffix, pc.videoclick.baidu.com
+host-suffix, push.zhanzhang.baidu.com
+host-suffix, qianclick.baidu.com
+host-suffix, release.baidu.com
+host-suffix, river.zhidao.baidu.com
+host-suffix, rj.baidu.com
+host-suffix, rplog.baidu.com
+host-suffix, s.baidu.com
+host-suffix, sclick.baidu.com
+host-suffix, sestat.baidu.com
+host-suffix, shadu.baidu.com
+host-suffix, sobar.baidu.com
+host-suffix, sobartop.baidu.com
+host-suffix, spcode.baidu.com
+host-suffix, tk.baidu.com
+host-suffix, tkweb.baidu.com
+host-suffix, toolbar.baidu.com
+host-suffix, tuijian.baidu.com
+host-suffix, tuisong.baidu.com
+host-suffix, ucstat.baidu.com
+host-suffix, ulic.baidu.com
+host-suffix, ulog.imap.baidu.com
+host-suffix, union.baidu.com
+host-suffix, union.baidustatic.guannin.com
+host-suffix, unionimage.baidu.com
+host-suffix, utility.baidu.com
+host-suffix, utk.baidu.com
+host-suffix, videopush.baidu.com
+host-suffix, w.gdown.baidu.com
+host-suffix, w.x.baidu.com
+host-suffix, wangmeng.baidu.com
+host-suffix, weishi.baidu.com
+host-suffix, wisepush.video.baidu.com
+host-suffix, wm.baidu.com
+host-suffix, yingxiao.baidu.com
+host-suffix, znsv.baidu.com
+host-suffix, baidustatic.com
+host-suffix, als.baidu.com
+host-suffix, duclick.baidu.com
+host-suffix, hm.baidu.com
+host-suffix, hmma.baidu.com
+host-suffix, mobads.baidu.com
+host-suffix, mobads-logs.baidu.com
+host-suffix, nsclick.baidu.com
+host, hm.baidu.com
+host, hmma.baidu.com
+host-suffix, bdtongfei.cn
+host-suffix, mobads.baidu.com
+host-suffix, ecma.bdimg.com
+host-suffix, ecmb.bdimg.com
+host-suffix, ecmc.bdimg.com
+host-suffix, pups.bdimg.com
+host-suffix, su.bdimg.com
+host-suffix, mipcache.bdstatic.com
+host-suffix, su.bdstatic.com
+host-suffix, zz.bdstatic.com
+host-suffix, baidustatic.com
+host-suffix, duapps.com
+
+# > 百度地图
+host, afd.baidu.com
+host, afdconf.baidu.com
+host, httpdns.baidubce.com
+host, lc.map.baidu.com
+
+# > 百度贴吧
+# 屏蔽域名dns查询
+IP-CIDR, 180.76.76.200/32
+
+# > 百词斩
+host, advertise.baicizhan.com
+host, advertise.baicizhan.org
+
+# > 百姓网
+host-suffix, admx.baixing.com
+host-suffix, tu.baixing.com
+host-suffix, d.admx.baixing.com
+host-suffix, bd-js.baixing.net
+host-suffix, bd-s.baixing.net
+host-suffix, script-bd.baixing.net
+
+# > 爆米花
+host-suffix, a.baomihua.com
+host-suffix, djs.baomihua.com
+host-suffix, resource.baomihua.com
+
+# > 百意
+host-suffix, bayimob.com
+host-suffix, hdggcdn.bayimob.com
+host-suffix, interaction.bayimob.com
+
+# > BBC
+host-suffix, visualscience.external.bbc.co.uk
+
+# > Bing
+host-suffix, bat.bing.com
+host-suffix, c.bing.com
+
+# > 笔趣阁
+host-suffix, j.biquge520.cc
+host-suffix, m.biquge5200.cc
+host-suffix, tt.biquge.la
+
+# > 宝宝树
+host-suffix, titan.babytree.com
+host-suffix, titan01.babytree.com
+
+# > 暴风影音
+host-suffix, active.baofeng.com
+host-suffix, logger.baofeng.com
+host-suffix, midinfo.baofeng.com
+host-suffix, p2pmid.baofeng.com
+host-suffix, data.danmu.baofeng.com
+host-suffix, co.dtech.baofeng.com
+host-suffix, eventlog.hd.baofeng.com
+host-suffix, pvlog.hd.baofeng.com
+host-suffix, action.logger.baofeng.com
+host-suffix, duration.logger.baofeng.com
+host-suffix, houyi.logger.baofeng.com
+host-suffix, storm.logger.baofeng.com
+host-suffix, tips.logger.baofeng.com
+host-suffix, tree.logger.baofeng.com
+host-suffix, sclog.moviebox.baofeng.com
+host-suffix, timelog.moviebox.baofeng.com
+host-suffix, vvlog.moviebox.baofeng.com
+host-suffix, breeze.olclient.baofeng.com
+host-suffix, coop.pop.baofeng.com
+host-suffix, androidlog.shouji.baofeng.com
+host-suffix, iphonelog.shouji.baofeng.com
+host-suffix, dailylog.storm.baofeng.com
+host-suffix, logger.treexml.baofeng.com
+host-suffix, config.baofeng.net
+host-suffix, houyi.baofeng.net
+host-suffix, listlog.baofeng.net
+host-suffix, loading.baofeng5.baofeng.net
+host-suffix, onlinetips.baofeng5.baofeng.net
+host-suffix, app.houyi.baofeng.net
+host-suffix, ck.houyi.baofeng.net
+host-suffix, corner.houyi.baofeng.net
+host-suffix, d3f.houyi.baofeng.net
+host-suffix, mid.houyi.baofeng.net
+host-suffix, parser.houyi.baofeng.net
+host-suffix, wbwl.houyi.baofeng.net
+host-suffix, web.houyi.baofeng.net
+host-suffix, wl.houyi.baofeng.net
+host-suffix, wx.houyi.baofeng.net
+host-suffix, xs.houyi.baofeng.net
+host-suffix, nclog.mars.baofeng.net
+host-suffix, clicklog.moviebox.baofeng.net
+host-suffix, pvlog.moviebox.baofeng.net
+host-suffix, rec.moviebox.baofeng.net
+host-suffix, nclog.pad.baofeng.net
+host-suffix, jfm4.pop.baofeng.net
+
+# > 奔图
+host-suffix, ad.pantum.com
+
+# > 崩坏3
+host-suffix, ad.bh3.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ C ✅ <<<<<<<<<<<<<<
+# > 财新网
+host-suffix, apollo.caixin.com
+host-suffix, logstat.caixin.com
+host-suffix, promote.caixin.com
+
+# > CNN
+host-suffix, customad.cnn.com
+host-suffix, gdyn.cnn.com
+host-suffix, metrics.cnn.com
+host-suffix, cnn.dyn.cnn.com
+host-suffix, i.l.cnn.net
+
+# > CSDN
+host-suffix, ad.csdn.net
+host-suffix, counter.csdn.net
+host-suffix, dc.csdn.net
+host-suffix, dc2.csdn.net
+host-suffix, medal.blog.csdn.net
+
+# > C&J Marketing
+# https://www.zhihu.com/question/46746200
+# 苏州思杰马克丁软件有限公司
+host-suffix, alienskins.cn
+host-suffix, anydeskchina.cn
+host-suffix, betterzipcn.com
+host-suffix, dongmansoft.com
+host-suffix, earmasterchina.cn
+host-suffix, folxchina.cn
+host-suffix, hypeapp.cn
+host-suffix, idmchina.net
+host-suffix, imazingchina.com
+host-suffix, luping.net.cn
+host-suffix, mindmanager.cn
+host-suffix, officesoftcn.com
+host-suffix, photozoomchina.com
+host-suffix, xitongqingli.com
+
+# > Camera360
+host, dispatcher.360in.com
+host, ad.360in.com
+host, exp.360in.com
+
+# > 创维
+host-suffix, hoisin.coocaa.com
+host-suffix, hoisin.coocaatv.com
+host, data-hoisin.coocaa.com
+
+# > 车来了
+host-suffix, atrace.chelaile.net.cn
+host, logs.chelaile.net.cn
+host, ad.chelaile.net.cn
+
+
+
+# >>>>>>>>>>>>>>> ✅ D ✅ <<<<<<<<<<<<<<
+# > 当当网
+host-suffix, a.dangdang.com
+host-suffix, schprompt.dangdang.com
+host-suffix, t.dangdang.com
+
+# > 斗鱼直播
+host-suffix, wan.douyu.com
+host-suffix, g.wan.douyu.com
+host-suffix, dotcounter.douyutv.com
+
+# > Dr.Peng
+# IP-CIDR, 10.72.25.0/24, reject
+IP-CIDR, 211.161.101.110/32
+
+# > 叮嗒出行
+host-keyword, image.bianxianmao.com
+
+# > 滴滴青桔
+# 支付界面图片有误杀
+;host-keyword, pt-starimg.didistatic.com
+ip-cidr, 203.107.1.1/24
+
+# > 懂车帝
+host-keyword, p3-pack.byteimg.com
+host-keyword, p6-pack.byteimg.com
+
+# > 懂球帝
+host-keyword, apimg.qunliao.info
+
+# > 抖音
+host-keyword, bds.snssdk.com
+host-keyword, p3.pstatp.com
+
+# > 多多视频
+host-suffix, bayescom.com
+
+# > 豆瓣
+host-suffix, erebor.douban.com
+host-suffix, ad.doubanio.com
+
+# > 朵朵校友圈
+# 微信小程序去广告
+host-suffix, ad.duoduo.link
+
+# > 盯盯拍
+# 广告联盟已包含
+
+# > 叮咚买菜
+host, trackercollect.ddxq.mobi
+host, ddfs-public.ddimg.mobi
+host, rttrack.ddxq.mobi
+
+# > 东方网
+host-suffix, afpimages.eastday.com
+host-suffix, jiaoben.eastday.com
+host-suffix, mini.eastday.com
+host-suffix, tt123.eastday.com
+host-suffix, tt321.eastday.com
+host-suffix, afpimages.eastday
+
+# > 东方财富
+host-suffix, bduserlog.eastmoney.com
+host-suffix, js4.eastmoney.com
+host-suffix, same.eastmoney.com
+
+# > 电脑之家
+host-suffix, btn.pchome.net
+host-suffix, js-1.pchome.net
+host-suffix, pf.pchome.net
+host-suffix, pf-2.pchome.net
+host-suffix, ad.pchome.com.tw
+host-suffix, adcl.pchome.com.tw
+
+
+
+# >>>>>>>>>>>>>>> ✅ E ✅ <<<<<<<<<<<<<<
+# > 饿了么
+host-suffix, app-monitor.ele.me
+host-suffix, client-api.ele.me
+host-suffix, grand.ele.me
+host-suffix, mobile-pubt.ele.me
+host-suffix, newton-api.ele.me
+
+
+
+# >>>>>>>>>>>>>>> ✅ F ✅ <<<<<<<<<<<<<<
+# > Facebook
+host-suffix, facebookma.cn
+host-suffix, atdmt.com
+host-suffix, staticxx.facebook.com
+
+# > 番茄小说
+host, i-lq.snssdk.com
+host, is-lq.snssdk.com
+host, ug-sinfonlinea.bytedance.com
+host, dig.bdurl.net
+host, activity-ag.awemeughun.com
+host, mcs.snssdk.com
+host, tnc3-alisc1.snssdk.com
+host, security-lq.snssdk.com
+host, tnc3-aliec2.snssdk.com
+#host, is.snssdk.com, reject
+#host, i.snssdk.com, reject
+host, v6-novelapp.ixigua.com
+host-suffix, novelapp.ixigua.com
+host-suffix, default.ixigua.com
+host, msync-im1-vip6-std.easemob.com
+host, apd-pcdnwxlogin.teg.tencent-cloud.net
+host, api.iegadp.qq.com
+host-suffix, byteorge.com
+# 下面两条误杀严重导致懂车帝无法正常使用
+#host-suffix, bytegoofy.com, reject
+#host-suffix, bytedance.com, reject
+IP-CIDR, 49.71.37.101/32
+IP-CIDR, 117.71.105.23/32
+IP-CIDR, 218.94.207.205/32
+IP-CIDR, 117.92.229.188/32
+IP-CIDR, 101.36.166.16/32
+IP-CIDR, 180.96.2.114/32
+
+# > 风行网
+host-suffix, pb.funshion.net.cn
+host-suffix, ad.funshion.org.cn
+host-suffix, adk.funshion.com
+host-suffix, adm.funshion.com
+host-suffix, conf.funshion.com
+host-suffix, pub.funshion.com
+host-suffix, vas.funshion.com
+host-suffix, vs.funshion.com
+host-suffix, aa0.pub.funshion.com
+host-suffix, aa1.pub.funshion.com
+host-suffix, rt.funshion.net
+
+# > 凤凰新媒体
+host-suffix, stadig.ifeng.com
+host-suffix, stadig0.ifeng.com
+host-suffix, exp.3g.ifeng.com
+host-suffix, ifengad.3g.ifeng.com
+host-suffix, dmpclick.deliver.ifeng.com
+host-suffix, dol.deliver.ifeng.com
+host-suffix, dolphin.deliver.ifeng.com
+host-suffix, ids.deliver.ifeng.com
+host-suffix, ids1.deliver.ifeng.com
+host-suffix, iis1.deliver.ifeng.com
+host-suffix, iis3g.deliver.ifeng.com
+host-suffix, mfp.deliver.ifeng.com
+host-suffix, api.iapps.ifeng.com
+host-suffix, api.newad.ifeng.com
+host-suffix, cz.ifeng0.com
+host-suffix, c0.ifengimg.com
+host-suffix, c1.ifengimg.com
+
+# > 房天下 (Soufun)
+host-suffix, click1n.soufun.com
+host-suffix, countubn.light.soufun.com
+
+# > 飞常准
+host, adv-adlog.variflight.com
+host, adv-ads.variflight.com
+host, app-ad.variflight.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ G ✅ <<<<<<<<<<<<<<
+# > 勾正数据（GozenData）
+# https://www.v2ex.com/t/772523
+host-suffix, gozendata.com
+host-suffix, gzads.com
+host-suffix, gz-data.com
+
+# > Go.com
+host-suffix, ad.go.com
+host-suffix, adimages.go.com
+host-suffix, ngads.go.com
+host-suffix, w88.go.com
+host-suffix, verdict.abc.go.com
+host-suffix, oascentral.abclocal.go.com
+host-suffix, dcapps.disney.go.com
+host-suffix, adsatt.espn.go.com
+host-suffix, seavideo-ak.espn.go.com
+
+# > 购物党
+host-suffix, browser.gwdang.com
+host-suffix, router.gwdang.com
+
+# > Google
+host-suffix, google-analytics.com
+host, safebrowsing.googleapis.com
+host-suffix, doubleclick.net
+host-suffix, googleadservices.com
+host-suffix, googleadsserving.cn
+host-suffix, googlesyndication.com
+host-suffix, googletagservices.com
+host-suffix, googletagmanager.com
+host-suffix, video-ad-stats.googlesyndication.com
+host-suffix, tpc.googlesyndication.com
+host-suffix, pagead.google.com
+host-suffix, pagead.l.google.com
+host-suffix, pagead2.googlesyndication.com
+host-suffix, pagead-tpc.l.google.com
+host-suffix, mobileads.google.com
+host-suffix, googlecommerce.com
+host-suffix, blaaaa12.googlecode.com
+host-suffix, badad.googleplex.com
+host-suffix, afs.googlesyndication.com
+host-suffix, afd.l.google.com
+host-suffix, www.googleadservices.com
+host-suffix, www.google-analytics.com
+host, ads.youtube.com
+host-suffix, cmshow.gtimg.cn
+host-suffix, discuz.gtimg.cn
+host-suffix, gu.qlogo.cn
+host-suffix, py.qlogo.cn
+host-suffix, py2.qlogo.cn
+host-suffix, app-measurement.com
+host-suffix, admob.com
+host-suffix, crashlytics.com
+host-suffix, pagespeed-mod
+host-suffix, csi.gstatic.com
+host-suffix, beacon.gtimg.com
+host-suffix, bla.gtimg.com
+host-suffix, lb.gtimg.com
+host-suffix, pgdt.gtimg.com
+host-suffix, ra.gtimg.com
+host-suffix, splashqqlive.gtimg.com
+host-suffix, swa.gtimg.com
+host-suffix, tui.gtimg.com
+host-suffix, wa.gtimg.com
+host-suffix, wb.gtimg.com
+host-suffix, e.crashlytics.com
+host-suffix, setting.crashlytics.com
+host-suffix, settings.crashlytics.com
+host-suffix, gcdn.2mdn.net
+host-suffix, s0.2mdn.net
+host-suffix, s1.2mdn.net
+host-suffix, pgdt.ugdtimg.com
+host-suffix, adclick.g.doublecklick.net
+
+# > 赶集网
+host-suffix, jiaoben.ganji.cn
+host-suffix, wuliao.ganji.cn
+host-suffix, ad.ganji.com
+host-suffix, ganjituiguang.ganji.com
+host-suffix, sta.ganji.com
+host-suffix, tralog.ganji.com
+
+# > 光大银行 阳光惠生活
+host-keyword, talk.bz.getui.com
+
+# > 高德地图
+;host, restapi.amap.com
+host-suffix, adiu.amap.com
+host, aboard.apilocate.amap.com
+host, apiinit.amap.com
+host, icloud-amap.com
+host, logs.amap.com
+host-suffix, dualstack-logs.amap.com
+host-suffix, logs.amap.com
+host-suffix, optimus-ads.amap.com
+host-suffix, page.amap.com
+host, optimus-ads.amap.com
+host, optimus-ads.amap.com.w.alikunlun.com
+host-suffix, shouji.sougou.com
+host, u51.me
+host-suffix, u51.me
+
+# > 广州地铁乘车码
+# 多个广告 感谢CtrlMusic🐓分享
+host, apis.alenable.com
+
+# > 国美电器
+host-suffix, prom.gome.com.cn
+
+# > 国双 (Gridsum)
+host-suffix, gridsumdissector.cn
+host-suffix, recv-vd.gridsumdissector.cn
+host-suffix, gridsumdissector.com
+host-suffix, cfg-md.gridsumdissector.com
+host-suffix, cfg-vd.gridsumdissector.com
+host-suffix, diag-vd.gridsumdissector.com
+host-suffix, diag-wd.gridsumdissector.com
+host-suffix, geo.gridsumdissector.com
+host-suffix, impression.gridsumdissector.com
+host-suffix, recv-wd.gridsumdissector.com
+host-suffix, sso-cas.gridsumdissector.com
+host-suffix, g.gridsum.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ H ✅ <<<<<<<<<<<<<<
+# > Hao123
+# hao123上网导航
+host-suffix, hao123rt.com
+host-suffix, 1.hao123.com
+host-suffix, mini.hao123.com
+
+# > 和讯网
+host-suffix, hxsame.hexun.com
+host-suffix, itv.hexun.com
+host-suffix, utrack.hexun.com
+host-suffix, hxjs.tool.hexun.com
+
+# > 环球网
+host-suffix, boardx.huanqiu.com
+host-suffix, interactive.huanqiu.com
+host-suffix, ipengtai.huanqiu.com
+
+# > HDO
+;host-suffix, applovin.com
+;host-suffix, applvn.com
+
+# > Huawei AspiegelBot
+IP-CIDR, 114.119.160.0/21
+
+# > 华为商城
+host-suffix, hiad.vmall.com
+host-suffix, ad.hicloud.com
+
+# > 华数TV
+host-suffix, acsystem.wasu.cn
+host-suffix, afp.wasu.cn
+host-suffix, afpcreative.wasu.cn
+host-suffix, collector.wasu.cn
+host-suffix, delivery.wasu.cn
+host-suffix, delivery-pc.wasu.cn
+host-suffix, adsystem.wasu.tv
+host-suffix, adwasu.tv
+
+# > 湖南卫视
+host-suffix, da.hunantv.com
+host-suffix, log.hunantv.com
+host-suffix, v2.hunantv.com
+host-suffix, click.hunantv.com
+host-suffix, mp4.res.hunantv.com
+host-suffix, res.hunantv.com
+host-suffix, x.da.hunantv.com
+host-suffix, x1.da.hunantv.com
+host-suffix, y.da.hunantv.com
+host-suffix, log.v2.hunantv.com
+host-suffix, v2.log.hunantv.com
+
+# > 沪江网校
+host-suffix, mc.hujiang.com
+
+# > 互传
+host-suffix, ad.apk.vivo.com.cn
+
+# > 虎扑
+host-suffix, adx.hupu.com
+host-suffix, adx-api.hupu.com
+host-suffix, goblin.hupu.com
+host-suffix, orz.hupu.com
+host-suffix, cc.dace.hupu.com
+
+# > 虎牙直播
+# 开屏广告
+host, pp-cdnfile2pcdn.msstatic.com
+host, livewebbs2pcdn.msstatic.com
+host, huyafile.msstatic.com
+host, livewebbs2.msstatic.com
+host, business.msstatic.com
+host-suffix, v1d.szbdyd.com
+host-suffix, 3dm.huya.com
+
+# > 哈啰
+# 大部分图片无法正常加载
+;host-keyword, assets.51downapp.cn
+
+# > 黄油相机
+# 开屏广告 感谢#Dragon分享
+host-suffix, anythinktech.com
+host-suffix, adkwai.com
+host-suffix, mob.com
+
+# > 好游快爆
+host-suffix, ad.3839.com
+
+# > 会声会影
+host-suffix, huishenghuiying.com.cn
+host-suffix, huishenghuiying.com
+host-suffix, xia.huishenghuiying.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ I ✅ <<<<<<<<<<<<<<
+
+
+
+# >>>>>>>>>>>>>>> ✅ J ✅ <<<<<<<<<<<<<<
+# > 金融界
+host-suffix, same.jrj.com.cn
+host-suffix, same01.jrj.com.cn
+host-suffix, same02.jrj.com.cn
+host-suffix, same03.jrj.com.cn
+host-suffix, 8.jrj.com
+
+# > 驾校一点通
+host, richmanapi.jxedt.com
+host, richmanmain.jxedt.com
+host, richmanrules.jxedt.com
+
+# > 金山词霸
+host, ad-stat.ksosoft.com
+host, img.auction-ads.wpscdn.cn
+host, counter.kingsoft.com
+host, counter.ksosoft.com
+host, minfo.wps.cn
+host, mobad.ijinshan.com
+host, ups.ksmobile.net
+host, ws.ksmobile.net
+
+# > 金山系 (Kingsoft)
+host-suffix, an.m.liebao.cn
+host-suffix, cr.m.liebao.cn
+host-suffix, cms.an.m.liebao.cn
+host-suffix, j.wan.liebao.cn
+host-suffix, 1.wps.cn
+host-suffix, android-lrcresource.wps.cn
+host-suffix, ic.wps.cn
+host-suffix, ios-informationplatform.wps.cn
+host-suffix, minfo.wps.cn
+host-suffix, mostat.wps.cn
+host-suffix, moupdate10332052.wps.cn
+host-suffix, pcfg.wps.cn
+host-suffix, img1.pcfg.cache.wps.cn
+host-suffix, crashes.mo.wps.cn
+host-suffix, img.auction-ads.wpscdn.cn
+host-suffix, mo.res.wpscdn.cn
+host-suffix, mobad.ijinshan.com
+host-suffix, mlb.did.ijinshan.com
+host-suffix, apns.ios.ijinshan.com
+host-suffix, cdnimg.liehu.ijinshan.com
+host-suffix, bp.mobad.ijinshan.com
+host-suffix, rcv.mobad.ijinshan.com
+host-suffix, sdk.mobad.ijinshan.com
+host-suffix, unconf.mobad.ijinshan.com
+host-suffix, rcmd.pop.ijinshan.com
+host-suffix, pop.sjk.ijinshan.com
+host-suffix, d.union.ijinshan.com
+host-suffix, dl.union.ijinshan.com
+host-suffix, counter.kingsoft.com
+host-suffix, bu1.duba.com
+host-suffix, bu2.duba.com
+host-suffix, docer.com
+host-suffix, iciba.com
+
+# > 金立 (Gionee)
+host-suffix, pdl.gionee.com
+
+# > 今日头条
+host-KEYWORD,clk.gentags.net
+host-KEYWORD,dm.pstatp.com
+host-KEYWORD,dm.bytedance.com
+host-KEYWORD,uop.umeng.com
+host-KEYWORD,m.suning.com
+host-KEYWORD,adshare.toutiao.com
+host-KEYWORD,tunion-api.m.taobao.com
+host-KEYWORD,s1.pstatp.com
+host-KEYWORD,s2.pstatp.com
+host-KEYWORD,s3.pstatp.com
+host-KEYWORD,a3.pstatp.com
+host-KEYWORD,a3.bytecdn.cn
+host-suffix, ad.toutiao.com
+host-suffix, dm.toutiao.com
+host-suffix, dsp.toutiao.com
+host-suffix, nativeapp.toutiao.com
+host-suffix, partner.toutiao.com
+host-suffix, track.toutiao.com
+host-suffix, dm.pstatp.com
+host-suffix, pb3.pstatp.com
+host-suffix, s3a.pstatp.com
+
+# > 京东
+host-suffix, jzt.jd.com
+host-suffix, img-x.jd.com
+host-suffix, du.jd.com
+host-suffix, c-nfa.jd.com
+host-suffix, cm.jd.com
+host-suffix, jddebug.com
+host-suffix, policy.jd.com
+host-suffix, kepler.jd.com
+host-suffix, bdsp.x.jd.com
+host-suffix, keplerapi.jd.com
+host-suffix, mapi.m.jd.com
+host-suffix, ad.3.cn
+host-suffix, jd.c-ptsp.com.cn
+# 屏蔽DNS
+host, dns.jd.com
+IP-CIDR, 101.124.19.122/32
+IP6-CIDR, 2402:db40:5100:1011::5/128
+
+# > 建行生活
+# 内置饿了么外卖弹窗
+host, o2o-ad-log-gateway.alibaba.com
+
+# > 巨潮资讯
+host-suffix, ad.cninfo.com.cn
+
+# > 九游
+host-suffix, ad.9game.cn
+
+
+
+# >>>>>>>>>>>>>>> ✅ K ✅ <<<<<<<<<<<<<<
+# > Keep
+host, apm.gotokeep.com
+host, kad.gotokeep.com
+host, hc-ssp.sm.cn
+
+# > 酷6网
+host-suffix, st.vq.ku6.cn
+host-suffix, addata.ku6.com
+host-suffix, pvdata.ku6.com
+host-suffix, static.ku6.com
+host-suffix, gug.ku6cdn.com
+host-suffix, vi1.ku6img.net
+host-suffix, vi2.ku6img.net
+
+# > 快速问医生
+host-suffix, ax.120ask.com
+host-suffix, eclick.120ask.com
+host-suffix, x.120ask.com
+host-suffix, bdjs.120askimages.com
+host-suffix, bdlm.120askimages.com
+
+# > 快懂百科
+host-suffix, ehd.baike.com
+host-suffix, hdad.baike.com
+
+# > 快乐广播
+host, ad.hpplay.cn
+host, adc.hpplay.cn
+host, adcdn.hpplay.cn
+host, adeng.hpplay.cn
+host, pin.hpplay.cn
+host, rp.hpplay.cn
+host, rpt.hpplay.cn
+
+# > 快手
+;host, js-ad.a.yximgs.com
+host-suffix, e.kuaishou.com
+host-suffix, cm.downloader.commercial.kuaishou.com
+host-suffix, cm.ad.gifshow.com
+host-suffix, cm.kwad.com
+
+# > 快压zip
+host-suffix, kuaizip.com
+
+# > 酷狗音乐
+host, adserviceretry.kugou.com
+host, ads.service.kugou.com
+host, adsfile.bssdlbig.kugou.com
+host, g.koowo.com
+host, kgmobilestat.kugou.com
+host, kgmobilestatbak.kugou.com
+host, mobilelog.kugou.com
+host, adsfile.bssdlbig.kugou.com
+host, pgdt.gtimg.com
+host, adsmind.gdtimg.com
+host-keyword, searchrecommend.kugou.com
+host-keyword, nbcollectretry.kugou.com
+host-keyword, rtmretry.kugou.com
+host-keyword, rt-m.kugou.com
+host-keyword, nbcollect.kugou.com
+host-keyword, c1img.ali.kugou.com
+host-keyword, kgstaticdlbssdlbig.tx.kugou.com
+host-keyword, adsfilebssdlbig.ali.kugou.com
+host-keyword, splashimgbssdl.yun.kugou.com
+host-keyword, adservice.kugou.com
+host-keyword, kgipadstat.kugou.com
+host-keyword, kgipadstatbak.kugou.com
+host-keyword, logwebs.kugou.com
+host-keyword, tracker.kugou.com
+host-keyword, trackercdnbj.kugou.com
+host-suffix, oth.eve.mdt.qq.com
+host-suffix, channel.fanxing.kugou.com
+host-suffix, d.kugou.com
+host-suffix, downmobile.kugou.com
+host-suffix, gad.kugou.com
+host-suffix, game.kugou.com
+host-suffix, gamebox.kugou.com
+host-suffix, gcapi.sy.kugou.com
+host-suffix, gg.kugou.com
+host-suffix, install.kugou.com
+host-suffix, install2.kugou.com
+host-suffix, minidcsc.kugou.com
+host-suffix, mo.kugou.com
+host-suffix, msg.mobile.kugou.com
+host-suffix, mvads.kugou.com
+host-suffix, p.kugou.com
+host-suffix, push.mobile.kugou.com
+host-suffix, rtmonitor.kugou.com
+host-suffix, sdn.kugou.com
+host-suffix, song.fanxing.kugou.com
+host-suffix, update.mobile.kugou.com
+host-suffix, youxi.kugou.com
+host-suffix, adserviceretry.kugou.com
+host-suffix, ads.service.kugou.com
+host-suffix, adsfile.bssdlbig.kugou.com
+host-suffix, log.stat.kugou.com
+host-suffix, log.web.kugou.com
+host-suffix, kgmobilestat.kugou.com
+host-suffix, kgmobilestatbak.kugou.com
+host-suffix, mobilelog.kugou.com
+host-suffix, ad.kugou.com
+
+# > 酷我音乐
+host, mobilead.kuwo.cn
+host, rich.kuwo.cn
+host-keyword, rich.kuwo.cn
+host-keyword, mobilead.kuwo.cn
+host-suffix, c.kuwo.cn
+host-suffix, deliver.kuwo.cn
+host-suffix, game.kuwo.cn
+host-suffix, kuwoyy.com
+host-suffix, kwmsg.kuwo.cn
+host-suffix, msclick2.kuwo.cn
+host-suffix, msphoneclick.kuwo.cn
+host-suffix, updatepage.kuwo.cn
+host-suffix, wa.kuwo.cn
+host-suffix, webstat.kuwo.cn
+host-suffix, mobilead.kuwo.cn
+host-suffix, rich.kuwo.cn
+host-suffix, ad.kuwo.cn
+
+# > 酷安
+# 广告联盟已包含
+
+
+
+# >>>>>>>>>>>>>>> ✅ L ✅ <<<<<<<<<<<<<<
+# > 乐居
+host-suffix, adm.leju.com
+host-suffix, src.leju.com
+host-suffix, staticadm.leju.com
+
+# > 联想
+host-suffix, adapi.lenovogame.com
+host-suffix, adcore.lenovomm.com
+host-suffix, ams.lenovomm.com
+host-suffix, fsr.lenovomm.com
+host-suffix, fus.lenovomm.com
+host-suffix, imfsr.lenovomm.com
+host-suffix, lds.lenovomm.com
+host-suffix, mfsr.lenovomm.com
+host-suffix, pbs.lenovomm.com
+host-suffix, prw.lenovomm.com
+host-suffix, psb.lenovomm.com
+host-suffix, pushapi.lenovomm.com
+host-suffix, sdac.lenovomm.com
+host-suffix, susapi.lenovomm.com
+host-suffix, uss-pid.lenovomm.com
+host-suffix, wth.lenovomm.com
+host-suffix, yx.lenovomm.com
+
+# > LinkedIn
+host-suffix, ads.linkedin.com
+
+# > Lycos
+host-suffix, adbuyer3.lycos.com
+host-suffix, cm8.lycos.com
+host-suffix, oascentral.lycos.com
+host-suffix, ratings.lycos.com
+host-suffix, client.sidesearch.lycos.com
+host-suffix, install.sidesearch.lycos.com
+host-suffix, guestworld.tripod.lycos.com
+host-suffix, titan.guestworld.tripod.lycos.com
+host-suffix, fe.lea.lycos.co.uk
+host-suffix, hit.webcentre.lycos.co.uk
+
+# > LinkWiFi
+host, a.wkanx.com
+host, cwx.lianwangtech.com
+host, c1wx.lianwangtech.com
+
+# > 蓝基因
+# 弹窗还在，需要手动关闭
+host-keyword, medicine.lanjiyin.com.cn
+
+# > 两步路
+host-suffix, admobile.top
+
+# > 乐视
+host, emma-414870e223.huodonghezi.com
+host-suffix, webp2p.letv.com
+host-suffix, ark.letv.com
+host-suffix, dc.letv.com
+host-suffix, fz.letv.com
+host-suffix, g3.letv.com
+host-suffix, minisite.letv.com
+host-suffix, pro.letv.com
+host-suffix, stat.letv.com
+host-suffix, pro.hoye.letv.com
+host-suffix, msg.m.letv.com
+host-suffix, static.app.m.letv.com
+host-suffix, n.mark.letv.com
+host-suffix, 1.letvlive.com
+host-suffix, 2.letvlive.com
+host-suffix, api.game.letvstore.com
+host-suffix, api.push.le.com
+host-suffix, cn.api.push.le.com
+host-suffix, guang.lesports.com
+
+# > 乐播投屏
+host-suffix, ad.hpplay.cn
+host-suffix, adeng.hpplay.cn
+host-suffix, rp.hpplay.cn
+
+
+
+# >>>>>>>>>>>>>>> ✅ M ✅ <<<<<<<<<<<<<<
+# > MacKeeper
+host-suffix, mackeeper.com
+host-suffix, download.mackeeper.com
+host-suffix, event.mackeeper.com
+host-suffix, mackeeperapp.mackeeper.com
+host-suffix, zryydi.com
+
+# > Makeding (苏州思杰马克丁)
+host-suffix, cjmakeding.com
+host-suffix, makeding.com
+
+# > 蘑菇街
+host-suffix, traffic.mogujie.com
+
+# > 猫扑 (Mop)
+host-suffix, pub.mop.com
+host-suffix, union.mop.com
+
+# > Microsoft
+host-suffix, c.msn.com.cn
+host-suffix, crl.microsoft.com
+host-suffix, ieonline.microsoft.com
+host-suffix, rad.microsoft.com
+host-suffix, watson.microsoft.com
+host-suffix, ac2.msn.com
+host-suffix, ac3.msn.com
+host-suffix, adsyndication.msn.com
+host-suffix, c.msn.com
+host-suffix, h.msn.com
+host-suffix, mobileads.msn.com
+host-suffix, otf.msn.com
+host-suffix, popup.msn.com
+host-suffix, r.msn.com
+host-suffix, rad.msn.com
+host-suffix, rmads.msn.com
+host-suffix, toolbar.msn.com
+host-suffix, udc.msn.com
+host-suffix, unicast.msn.com
+host-suffix, a.ads1.msn.com
+host-suffix, b.ads1.msn.com
+host-suffix, a.ads2.msn.com
+host-suffix, rmads.eu.msn.com
+host-suffix, 0.r.msn.com
+host-suffix, catalog.video.msn.com
+host-suffix, c.live.com
+host-suffix, rad.live.com
+host-suffix, watson.live.com
+host-suffix, msads.net
+host-suffix, ads1.msads.net
+host-suffix, ads2.msads.net
+host-suffix, global.msads.net
+host-suffix, a.global.msads.net
+host-suffix, ads.msn.com
+host-suffix, ads1.msn.com
+host-suffix, ads2.msn.com
+host-suffix, bingads.microsoft.com
+host-suffix, rads.msn.com
+
+# > 妈妈网
+host-suffix, ad.mama.cn
+
+# > 美团
+host-suffix, meituan.xn
+host-suffix, meituan.yoga
+host-suffix, meituangov.cn
+host-suffix, report.meituan.com
+host-suffix, analytics.meituan.net
+host-suffix, wmlog.meituan.com
+host-suffix, ad.e.waimai.sankuai.com
+host-suffix, mads.meituan.com
+host-suffix, dreport.meituan.net
+host-suffix, d.meituan.net
+
+# > 美颜相机
+# 去首页和轮播广告
+host, adui.tg.meitu.com
+host, aaid.uyunad.com
+
+# > 美图秀秀
+host-suffix, corp.meitu.com
+host-suffix, gg.meitu.com
+host-suffix, message.meitu.com
+host-suffix, tuiguang.meitu.com
+host-suffix, xiuxiu.android.dl.meitu.com
+host-suffix, adui.tg.meitu.com
+host-suffix, rabbit.tg.meitu.com
+host-suffix, meitubeauty.meitudata.com
+host-suffix, xiuxiu.mobile.meitudata.com
+host-suffix, dc.meitustat.com
+host-suffix, mdc.meitustat.com
+host-suffix, rabbit.meitustat.com
+
+# > 美柚
+host, ad.seeyouyima.com
+
+# > 魅族 (Meizu)
+host-suffix, api-flow.flyme.cn
+host-suffix, bro.flyme.cn
+host-suffix, t-e.flyme.cn
+host-suffix, t-flow.flyme.cn
+host-suffix, aider-res.meizu.com
+host-suffix, api-game.meizu.com
+host-suffix, api-push.meizu.com
+host-suffix, cal.meizu.com
+host-suffix, game-res.meizu.com
+host-suffix, infocenter.meizu.com
+host-suffix, openapi-news.meizu.com
+host-suffix, reader.meizu.com
+host-suffix, tongji-res1.meizu.com
+host-suffix, uxip.meizu.com
+host-suffix, umid.orion.meizu.com
+host-suffix, ebook.res.meizu.com
+host-suffix, game.res.meizu.com
+host-suffix, push.res.meizu.com
+host-suffix, reader.res.meizu.com
+host-suffix, upush.res.meizu.com
+host-suffix, aries.mzres.com
+
+# > 买单吧
+host-suffix, c-hzgt2.getui.com
+host-suffix, c-hzgt2.getui.com
+host-suffix, gs.getui.com
+
+# > 民生银行
+host-keyword, cm-10-134.getui.com
+host-keyword, sdk.open.talk.getui.com
+host-keyword, cm-10-35.getui.com
+host-keyword, c-hzgt2.getui.com
+
+# > 墨迹天气
+host-KEYWORD,me.api.moji.com
+host-KEYWORD,android.bugly.qq.com
+host-KEYWORD,av1.xdrig.com
+host-KEYWORD,adash.man.aliyuncs.com
+host, ad.api.moji.com
+host, adlaunch.moji.com
+host, ads.mojicdn.com
+host, v1.log.moji.com
+host-suffix, cdn.moji.com
+host-suffix, fds.api.moji.com
+host-suffix, app.moji001.com
+host-suffix, ugc.moji001.com
+host-suffix, cdn.moji002.com
+host-suffix, cdn2.moji002.com
+
+# > 咪咕视频
+host-suffix, ad.cmvideo.cn
+host, ggc.cmvideo.cn
+host, ggv.cmvideo.cn
+host, ggx.cmvideo.cn
+host, ggx03.miguvideo.com
+host, ggic03.miguvideo.com
+host, ggmk.miguvideo.com
+host, ggadoffline.miguvideo.com
+
+# > 米家
+host, sdkconfig.ad.xiaomi.com
+
+# > 芒果TV
+host, dflow.bz.mgtv.com
+host, encounter.bz.mgtv.com
+host, floor.bz.mgtv.com
+host, img.da.mgtv.com
+host, layer.bz.mgtv.com
+host, mob.bz.mgtv.com
+host, mobile.da.mgtv.com
+host, rc-topic-api.bz.mgtv.com
+host, v2.da.mgtv.com
+host, video.da.mgtv.com
+host, vip.bz.mgtv.com
+host, ys.da.mgtv.com
+host-suffix, mobile2.da.mgtv.com
+host-suffix, cdn.cmop.mgtv.com
+host-suffix, cmop.mgtv.com
+host-suffix, imgaliyun.da.mgtv.com
+host-suffix, imgaliyun.res.mgtv.com
+host-suffix, m2.da.mgtv.com
+host-suffix, mobaliyun.res.mgtv.com
+host-suffix, pc.da.mgtv.com
+host-suffix, pc1.da.mgtv.com
+host-suffix, pcvideoaliyun.titan.mgtv.com
+host-suffix, pcvideoyd.titan.mgtv.com
+host-suffix, pcweb.v1.mgtv.com
+host-suffix, py.da.mgtv.com
+host-suffix, web.da.mgtv.com
+host-suffix, x.da.mgtv.com
+host-suffix, y.da.mgtv.com
+host-suffix, da.mgtv.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ N ✅ <<<<<<<<<<<<<<
+# > Naver
+host-suffix, ad.naver.com
+host-suffix, adcr.naver.com
+host-suffix, adcreative.naver.com
+host-suffix, adimg3.search.naver.net
+
+# > New Relic
+host-suffix, newrelic.com
+host-suffix, js-agent.newrelic.com
+host-suffix, bam.nr-data.net
+
+
+
+# >>>>>>>>>>>>>>> ✅ O ✅ <<<<<<<<<<<<<<
+# > Openmultimedia
+host-suffix, ad.openmultimedia.biz
+
+# > Optimix（奥迪美）
+host-suffix, bx.optimix.asia
+host-suffix, bx01.optimix.asia
+host-suffix, c03.optimix.asia
+host-suffix, s03.optimix.asia
+host-suffix, optimix.cn
+
+# > Oupeng (欧朋)
+host-suffix, ezine.oupeng.com
+host-suffix, img-ad.oupeng.com
+host-suffix, notify.oupeng.com
+host-suffix, startup.oupeng.com
+host-suffix, c.bxb.oupeng.com
+host-suffix, r.bxb.oupeng.com
+
+# > Outfit7（会说话的汤姆猫）
+host-suffix, apps.outfit7.com
+host-suffix, apps2.outfit7.com
+host-suffix, cdn.outfit7.com
+host-suffix, cdn-gcs.outfit7.com
+host-suffix, events-api.outfit7.net
+
+# > OPPO
+host, adsfs.oppomobile.com
+host-suffix, ads.oppomobile.com
+
+# > Outlook
+host, acdn.adnxs.com
+host, mediation.adnxs.com
+host, sin3-ib.adnxs.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ P ✅ <<<<<<<<<<<<<<
+# > PPTV
+host, ads.aplus.pptv.com
+host, ads.aplusapi.pptv.com
+host, asimgs.pplive.cn
+host, de.as.pptv.com
+host-suffix, afp.pplive.com
+host-suffix, gas.data.pplive.com
+host-suffix, plt.data.pplive.com
+host-suffix, web.data.pplive.com
+host-suffix, pp2.pptv.com
+host-suffix, stat.pptv.com
+host-suffix, app.aplus.pptv.com
+host-suffix, as.aplus.pptv.com
+host-suffix, jp.as.pptv.com
+host-suffix, static.g.pptv.com
+
+# > Photoable
+host, regist.fotoable.com
+host, cdn.adapi.fotoable.com
+
+# > PeanutWiFi
+host, adnew.wifi8.com
+host, adfile.wifi8.com
+
+# > 皮皮虾
+# 推荐视频不能预览
+host-keyword, log-api.pangolin-sdk-toutiao-b.com
+host-keyword, log-api.pangolin-sdk-toutiao.com
+host-keyword, api-access.pangolin-sdk-toutiao.com
+;host-keyword, snssdk.com
+;host-keyword, mssdk.bytedance.com
+;host-keyword, api.ribaoapi.com
+;host-keyword, apps.bytesfield.com
+;host-keyword, bytesmanager.com
+;host-keyword, mssdk-bu.bytedance.com
+;host-keyword, 365yg.com
+;host-keyword, ppx.byteimg.com
+;host-keyword, i.snssdk.com
+
+# > 澎湃新闻
+host, admonitor.thepaper.cn
+host, adpai.thepaper.cn
+host, imgadpai.thepaper.cn
+host-suffix, ad.thepaper.cn
+host-suffix, imgad.thepaper.cn
+
+
+
+# >>>>>>>>>>>>>>> ✅ Q ✅ <<<<<<<<<<<<<<
+# > QQ音乐
+host, adstats.tencentmusic.com
+host, ad.tencentmusic.com
+host, adcdn.tencentmusic.com
+host, adcdn6.tencentmusic.com
+host, adexpo.tencentmusic.com
+host, adclick.tencentmusic.com
+host, otheve.beacon.qq.com
+host, monitor.music.qq.com
+host, stat.y.qq.com
+host, tmead.y.qq.com
+host, oth.str.mdt.qq.com
+host, h.trace.qq.com
+host, sdk.e.qq.com
+host, p.l.qq.com
+host, us.l.qq.com
+host, tangram.e.qq.com
+host, tmeadbak.y.qq.com
+host-suffix, imtmp.net
+host, tmeadcomm.y.qq.com
+host, ad.tencentmusic.com
+host, adstats.tencentmusic.com
+host, tmead.y.qq.com
+host-suffix, rqd.qq.com
+host-suffix, wup.imtt.qq.com
+host-suffix, gdt.qq.com
+host-suffix, android.rqd.qq.com
+host-suffix, e.qq.com
+host-suffix, beacon.qq.com
+host-suffix, v.gdt.qq.com
+host, amsweb-cdn-gz-1258344696.file.myqcloud.com
+host, wallpaper-1258344696.file.myqcloud.com
+host, xs.gdt.qq.com
+IP-CIDR, 120.222.240.171/32
+
+# > 蜻蜓FM
+host, ad.qingting.fm
+host, adlaunch.qingting.fm
+host, ad-cdn.qingting.fm
+
+# > 七猫小说
+host, cdn-new-ad.wtzw.com
+host, a-remad.qm989.com
+host, mobads.baidu.com
+host-suffix, gdt.qq.com
+host, qzs.gdtimg.com
+host, mobads-pre-config.cdn.bcebos.com
+host, pgdt.ugdtimg.com
+
+# > 汽车之家
+host-keyword, adm3.autoimg.cn
+;host-keyword, audid-api.taobao.com
+host-keyword, collectionpv.che168.com
+host-keyword, adproxy.autohome.com
+host-keyword, applogapi.autohome.com
+host, adproxy.autohome.com.cn
+host, rd.autohome.com.cn
+host, al.autohome.com.cn
+host, applogapi.autohome.com.cn
+host, adm0.autoimg.cn
+host, adm1.autoimg.cn
+host, adm2.autoimg.cn
+host, adm3.autoimg.cn
+host-suffix, adm0.autoimg.cn
+host-suffix, adm1.autoimg.cn
+host-suffix, adm2.autoimg.cn
+host-suffix, adm3.autoimg.cn
+host-suffix, 33.autohome.com.cn
+host-suffix, adproxy.autohome.com.cn
+host-suffix, al.autohome.com.cn
+host-suffix, applogapi.autohome.com.cn
+host-suffix, c.autohome.com.cn
+host-suffix, cmx.autohome.com.cn
+host-suffix, dspmnt.autohome.com.cn
+host-suffix, pcd.autohome.com.cn
+host-suffix, pcmx.autohome.com.cn
+host-suffix, pvx.autohome.com.cn
+host-suffix, rd.autohome.com.cn
+host-suffix, rdx.autohome.com.cn
+host-suffix, pv.alert.autohome.com.cn
+host-suffix, activity.app.autohome.com.cn
+host-suffix, public.app.autohome.com.cn
+host-suffix, push.app.autohome.com.cn
+host-suffix, h.pcd.autohome.com.cn
+
+# > 齐鲁网
+host-suffix, g3.iqilu.com
+host-suffix, g4.iqilu.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ R ✅ <<<<<<<<<<<<<<
+# > 人人视频
+host-suffix, ad.rr.tv
+host-suffix, ebp.renren.com
+host-suffix, jebe.renren.com
+host-suffix, bolt.jebe.renren.com
+host-suffix, cupid.jebe.renren.com
+host-suffix, shaft.jebe.renren.com
+host-suffix, xray.jebe.renren.com
+
+# > 人民网
+host-suffix, pmm.people.com.cn
+host-suffix, a1.peoplecdn.cn
+
+
+
+# >>>>>>>>>>>>>>> ✅ S ✅ <<<<<<<<<<<<<<
+# > Sape
+host-suffix, sape.ru
+host-suffix, cdn-rtb.sape.ru
+host-suffix, dispenser-rtb.sape.ru
+host-suffix, ssp-rtb.sape.ru
+
+# > Soul
+host, soul-ad.soulapp.cn
+host, ad-r.soulapp.cn
+host, ad-reward.soulapp.cn
+host-suffix, cdn.soulapp.cn
+IP-CIDR, 47.56.131.76/32
+IP-CIDR, 47.97.215.55/32
+IP-CIDR, 47.99.42.29/32
+IP-CIDR, 120.27.235.201/32
+IP-CIDR, 121.196.197.147/32
+
+# > Snapchat
+host, ads.snapchat.com
+host, adsapi.snapchat.com
+
+# > 盛趣游戏
+host-suffix, adrs.sdo.com
+
+# > 苏宁易购
+host-suffix, show.suning.beer
+host-suffix, apm.suning.cn
+host-suffix, mads.suning.com
+host-suffix, ssac.suning.com
+host-suffix, tad.suning.com
+
+# > 搜狐
+host-suffix, ad.sohu.com
+host-suffix, ads.sohu.com
+host-suffix, aty.sohu.com
+host, hui.sohu.com
+host-suffix, adnet.sohu.com
+host-suffix, corp.sohu.com
+host-suffix, cpc.sohu.com
+host-suffix, go.sohu.com
+host-suffix, hui.sohu.com
+host-suffix, images.sohu.com
+host-suffix, suvset.sohu.com
+host-suffix, track.sohu.com
+host-suffix, doc.go.sohu.com
+host-suffix, i.go.sohu.com
+host-suffix, imp.go.sohu.com
+host-suffix, s.go.sohu.com
+host-suffix, t.go.sohu.com
+host-suffix, txt.go.sohu.com
+host-suffix, x1.go.sohu.com
+host-suffix, xls.go.sohu.com
+host-suffix, ad.mail.sohu.com
+host-suffix, 3rd.t.sohu.com
+host-suffix, 888.tv.sohu.com
+
+# > 搜狗
+;host, indivi-cdn.shouji.sogou.com
+host-suffix, epro.sogou.com
+host-suffix, golden1.sogou.com
+host-suffix, inte.sogou.com
+host-suffix, inte.sogoucdn.com
+host-suffix, lu.sogoucdn.com
+host-suffix, theta.sogoucdn.com
+host-suffix, uranus.sogou.com
+host-suffix, 123.sogou.com
+host-suffix, a1click.cpc.sogou.com
+host-suffix, adsence.sogou.com
+host-suffix, adstream.123.sogoucdn.com
+host-suffix, amfi.gou.sogou.com
+host-suffix, art.theta.sogoucdn.com
+host-suffix, athena.wan.sogou.com
+host-suffix, bazinga.mse.sogou.com
+host-suffix, bite.theta.sogoucdn.com
+host-suffix, brand.sogou.com
+host-suffix, bsiet.husky.sogou.com
+# 屏蔽京东和搜狗收集信息 @jFrecht
+host-suffix, jdqd.jd.com
+host-suffix, shouji.sougou.com
+host-suffix, cpc.sogou.com
+host-suffix, fair.sogou.com
+host-suffix, files2.sogou.com
+host-suffix, goto.sogou.com
+host-suffix, iwan.sogou.com
+host-suffix, lu.sogou.com
+host-suffix, p3p.sogou.com
+host-suffix, pb.sogou.com
+host-suffix, pbd.sogou.com
+host-suffix, pv.sogou.com
+host-suffix, union.sogou.com
+host-suffix, wan.sogou.com
+host-suffix, wangmeng.sogou.com
+host-suffix, web.sogou.com
+host-suffix, ping.acc.sogou.com
+host-suffix, cjroq.bealge.sogou.com
+host-suffix, qhl.bealge.sogou.com
+host-suffix, mini.cpc.sogou.com
+host-suffix, rd.e.sogou.com
+host-suffix, service.epro.sogou.com
+host-suffix, wuliao.epro.sogou.com
+host-suffix, ejzr.golden1.sogou.com
+host-suffix, jsnp.golden1.sogou.com
+host-suffix, pjyu.golden1.sogou.com
+host-suffix, psfq.gou.sogou.com
+host-suffix, gxe.husky.sogou.com
+host-suffix, eff.inte.sogou.com
+host-suffix, p.inte.sogou.com
+host-suffix, vps.inte.sogou.com
+host-suffix, rmoeu.mercury.sogou.com
+host-suffix, sw.mobile.sogou.com
+host-suffix, image.p4p.sogou.com
+host-suffix, info.pinyin.sogou.com
+host-suffix, ping.pinyin.sogou.com
+host-suffix, pcxzo.pluto.sogou.com
+host-suffix, qxm.pluto.sogou.com
+host-suffix, config.push.sogou.com
+host-suffix, pull.push.sogou.com
+host-suffix, feed.theta.sogou.com
+host-suffix, rjgw.theta.sogou.com
+host-suffix, fych.uranus.sogou.com
+host-suffix, ktivn.uranus.sogou.com
+host-suffix, osc.uranus.sogou.com
+host-suffix, xtruh.uranus.sogou.com
+host-suffix, img.wan.sogou.com
+host-suffix, ht.www.sogou.com
+host-suffix, download.zhushou.sogou.com
+host-suffix, galaxy.sogoucdn.com
+host-suffix, jpg.inte.sogoucdn.com
+host-suffix, moka.inte.sogoucdn.com
+host-suffix, omg.inte.sogoucdn.com
+host-suffix, wds.inte.sogoucdn.com
+host-suffix, cdn.lu.sogoucdn.com
+host-suffix, gif.lu.sogoucdn.com
+host-suffix, png.lu.sogoucdn.com
+host-suffix, inte.theta.sogoucdn.com
+host-suffix, dl.wan.sogoucdn.com
+
+# > 搜狗输入法
+;host-keyword, business-cdn.shouji.sogou.com
+host-suffix, push-service-ios.sginput.qq.com
+
+# > 深圳通
+# 微信小程序
+host-suffix, wxsnsdythumb.wxs.qq.com
+
+# > 收钱吧
+# 买单小程序去广告
+host, ads-shopping.shouqianba.com
+
+# > 什么值得买
+host, aaid.uyunad.com
+host, acs4baichuan.m.taobao.com
+host, adashxgc.ut.taobao.com
+host, analytics-api.smzdm.com
+host, baichuan-sdk.alicdn.com
+host, dgstatic.jd.com
+host, msg.umengcloud.com
+host, sec.umeng.com
+host, ulogs.umeng.com
+host, ynuf.aliapp.org
+host-suffix, res-ga.smzdm.com
+
+# > 手机中国
+host-suffix, pic.cnmo-img.com.cn
+host-suffix, icon.cnmo.com
+host-suffix, js.cnmo.com
+
+# > 数盟 (Shuzilm)
+host-suffix, shuzilm.cn
+host-suffix, api.shuzilm.cn
+host-suffix, daa.shuzilm.cn
+host-suffix, dai.shuzilm.cn
+host-suffix, stream.shuzilm.cn
+
+# > 闪萌
+host-suffix, ad.weshineapp.com
+
+# > 世纪佳缘
+host-suffix, ad.jiayuan.com
+
+# > 书旗小说
+host-suffix, ut2.shuqistat.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ T ✅ <<<<<<<<<<<<<<
+# > Tanwan (贪玩)
+host-suffix, mytanwan.com
+host-suffix, tanwanyx.com
+host-suffix, app.tanwan.com
+host-suffix, wap.tanwan.com
+host-suffix, gafxa.code.mytanwan.com
+host-suffix, ldpgl.code.mytanwan.com
+host-suffix, pop.code.mytanwan.com
+host-suffix, sy.code.mytanwan.com
+host-suffix, sy.flash.mytanwan.com
+host-suffix, b.code.tanwanyx.com
+host-suffix, hv.code.tanwanyx.com
+host-suffix, xd.code.tanwanyx.com
+
+# > 淘淘搜
+host-suffix, img.taotaosou.cn
+host-suffix, img01.taotaosou.cn
+host-suffix, re.taotaosou.com
+host-suffix, show.kc.taotaosou.com
+
+# > Tumblr
+host-suffix, 92x.tumblr.com
+host-suffix, its-dori.tumblr.com
+host-suffix, 31.media.tumblr.com
+
+# > Twitch
+host-suffix, fan.twitch.tv
+host-suffix, spade.twitch.tv
+
+# > Turn
+host-suffix, ad.turn.com
+host-suffix, d.turn.com
+
+# > Twitter
+host-suffix, ads-twitter.com
+host-suffix, p.twitter.com
+host-suffix, scribe.twitter.com
+host-suffix, syndication.twitter.com
+host-suffix, syndication-o.twitter.com
+host-suffix, urls.api.twitter.com
+
+# > TubeMax
+host-suffix, adjust.com
+host-suffix, applvn.com
+host-suffix, app-measurement.com
+host-suffix, pangle.io
+host-suffix, applovin.com
+host-suffix, appier.net
+host-suffix, adsmoloco.com
+host-suffix, adcanvas.com
+
+# > Talkatone
+host-suffix, tappx.com
+host-suffix, impression.link
+host-suffix, jampp.com
+host-suffix, adrta.com
+host-suffix, googlesyndication-cn.com
+host-suffix, doubleclick-cn.net
+host-suffix, fonts.gstatic.cn
+host-suffix, pomodoromedia.com
+host-suffix, zemanta.com
+host-suffix, mobilefuse.com
+host-suffix, outbrainimg.com
+host-suffix, trustarc.com
+host-suffix, truste.com
+host-suffix, adsrvr.org
+host-suffix, outbrain.com
+host-suffix, inhousedsp.com
+host-suffix, i.sng.link
+host-suffix, inner-active.mobi
+host-suffix, richmob.cn
+host-suffix, amazon-adsystem.com
+host-suffix, ads.pubmatic.com
+host-suffix, bidder.criteo.com
+host-suffix, gum.criteo.com
+host-suffix, smaato.net
+host-suffix, spadsync.com
+host-suffix, ads.inmobi.com
+#host-suffix, akamaized.net, reject
+host-suffix, spadsync.com
+host-suffix, tpc.googlesyndication.com
+host-suffix, googleadsserving.cn
+host-suffix, googleads.g.doubleclick.net
+host-suffix, inner-active.mobi
+host-suffix, 4dvertible.com
+host-suffix, smadex.com
+
+# > 天神
+host, track.tenjin.com
+host, track.tenjin.io
+host, errlog.umeng.com
+host, lf9-cdn-tos.bytegecko.com
+host, novel.pangolin-sdk-toutiao.com
+
+# > 淘宝
+host-suffix, apoll.m.taobao.com
+host-suffix, h-adashx.ut.taobao.com
+host-suffix, w.m.taobao.com
+host, tunion-api.m.taobao.com
+# host-suffix, ai.m.taobao.com, reject
+host-suffix, re.m.taobao.com
+host-suffix, agoodm.m.taobao.com
+host-suffix, ai.taobao.com
+host-suffix, api.waptest.taobao.com
+host-suffix, dsp.simba.taobao.com
+host-suffix, fav.simba.taobao.com
+host-suffix, m.simba.taobao.com
+host-suffix, mclick.simba.taobao.com
+host-suffix, re.taobao.com
+host-suffix, redirect.simba.taobao.com
+host-suffix, simba.m.taobao.com
+host-suffix, srd.simba.taobao.com
+host-suffix, temai.taobao.com
+host-suffix, textlink.simba.taobao.com
+host-suffix, unitacs.m.taobao.com
+host-suffix, acs4baichuan.m.taobao.com
+host-suffix, adashbc.ut.taobao.com
+host-suffix, adash-c.ut.taobao.com
+host-suffix, adashxgc.ut.taobao.com
+host-suffix, adashx4yt.m.taobao.com
+host-suffix, tunion-api.m.taobao.com
+host-suffix, tns.simba.taobao.com
+host-suffix, click.mz.simba.taobao.com
+host-suffix, click.simba.taobao.com
+host-suffix, click.tz.simba.taobao.com
+host-suffix, stat.simba.taobao.com
+host-suffix, m-adash.m.taobao.com
+host-suffix, adashbc.m.taobao.com
+
+# >  腾讯系
+host-suffix, activeqq.3g.qq.com
+host-suffix, ad.qq.com
+host-suffix, adping.qq.com
+host-suffix, adpm.app.qq.com
+host-suffix, adrdir.qq.com
+host-suffix, adsclick.qq.com
+host-suffix, adsense.html5.qq.com
+host-suffix, adsfile.qq.com
+host-suffix, adsgroup.qq.com
+host-suffix, adshmct.qq.com
+host-suffix, adshmmsg.qq.com
+host-suffix, adslvfile.qq.com
+host-suffix, adslvseed.qq.com
+host-suffix, adsolution.imtt.qq.com
+host-suffix, adsqqclick.qq.com
+host-suffix, adstextview.qq.com
+host-suffix, adsview.qq.com
+host-suffix, adsview2.qq.com
+host-suffix, adv.app.qq.com
+host-suffix, adver.qq.com
+host-suffix, aeventlog.beacon.qq.com
+host-suffix, analy.qq.com
+host-suffix, astrategy.beacon.qq.com
+host-suffix, rp.crasheye.cn
+host-suffix, cmshow.gtimg.cn
+host-suffix, discuz.gtimg.cn
+host-suffix, gu.qlogo.cn
+host-suffix, py.qlogo.cn
+host-suffix, py2.qlogo.cn
+host-suffix, beacon.gtimg.com
+host-suffix, bla.gtimg.com
+host-suffix, lb.gtimg.com
+host-suffix, pgdt.gtimg.com
+host-suffix, ra.gtimg.com
+host-suffix, splashqqlive.gtimg.com
+host-suffix, swa.gtimg.com
+host-suffix, tui.gtimg.com
+host-suffix, wa.gtimg.com
+host-suffix, wb.gtimg.com
+
+# > 腾讯智慧
+host-suffix, tencentmind.com
+host-suffix, p.tencentmind.com
+
+# > 同花顺
+host, adm.10jqka.com.cn
+host, stat.10jqka.com.cn
+host-suffix, ad.thsi.cn
+
+# > 迅雷
+host-suffix, adsp.xunlei.com
+host-suffix, static-xl9-ssl.xunlei.com
+host-suffix, biz.live.xunlei.com
+host-suffix, ct.niu.xunlei.com
+host-suffix, mou.niu.xunlei.com
+host-suffix, scene.vip.xunlei.com
+host-suffix, tw13b093.sandai.net
+host-suffix, xlmc.sandai.net
+host-suffix, cpm.cm.sandai.net
+host-suffix, master.wap.dphub.sandai.net
+host-suffix, idx.m.hub.sandai.net
+host-suffix, liveupdate.mac.sandai.net
+host-suffix, hub5pn.wap.sandai.net
+host-suffix, etl.xlmc.sandai.net
+host-suffix, test.api.xlmc.sandai.net
+host-suffix, pre.api.tw06.xlmc.sandai.net
+
+# > 团油
+host-keyword, img1.czb365.com
+
+# > 同盾
+host-suffix, fraudmetrix.cn
+host-suffix, fp.fraudmetrix.cn
+host-suffix, fptest.fraudmetrix.cn
+host-suffix, statictest.fraudmetrix.cn
+
+# > 太平洋电脑
+host-suffix, iad0ssl.pcauto.com.cn
+host-suffix, imgad0.pcauto.com.cn
+host-suffix, ivy.pcauto.com.cn
+host-suffix, ivy.pcbaby.com.cn
+host-suffix, ivy.pchouse.com.cn
+host-suffix, ivy.pclady.com.cn
+host-suffix, ad-analysis.pconline.com.cn
+host-suffix, count5.pconline.com.cn
+host-suffix, count6.pconline.com.cn
+host-suffix, iad0ssl.pconline.com.cn
+host-suffix, imgad0.pconline.com.cn
+host-suffix, ivy.pconline.com.cn
+
+# > 天天看看
+host-suffix, biz5.kankan.com
+host-suffix, distf.kankan.com
+host-suffix, float.kankan.com
+host-suffix, kkpgv.kankan.com
+host-suffix, kkpgv2.kankan.com
+host-suffix, cpm.cm.kankan.com
+host-suffix, count.cpm.cm.kankan.com
+
+# > 途虎养车
+host, analytics.tuhu.com
+host, ta.tuhu.cn
+
+
+# >>>>>>>>>>>>>>> ✅ U ✅ <<<<<<<<<<<<<<
+# > Urban Airship
+host-suffix, urbanairship.com
+host-suffix, combine.urbanairship.com
+
+# > UC浏览器
+host, safe.ucweb.com
+host, px.ucweb.com
+host, navigis.uc.cn
+host, order.sm.cn
+host, ucdc-upaas.uc.cn
+host, access.open.uc.cn
+host, uc.ucweb.com
+host, emoji.uc.cn
+host, ssp-partner.alibaba.com
+host, voice-service.uc.cn
+host, v.uc.cn
+host, coral.uc.cn
+host, wolong-dsp.sm.cn
+host, cartoonapi.uc.cn
+host, umessage-online-zb.uc.cn
+host, api.c.uc.cn
+host, aid.m.taobao.com
+host, cms.uc.cn
+host, applog-perf.uc.cn
+host-suffix, clickc.admaster.com.cn
+host-suffix, fans.m.tmall.com
+host-suffix, r1.ykimg.com
+host-suffix, v.admaster.com.cn
+host-suffix, v2.reachmax.cn
+host-suffix, server.m.pp.cn
+host-suffix, puds.ucweb.com
+host-suffix, wgo.mmstat.com
+host-suffix, log.cs.pp.cn
+host-suffix, applog.uc.cn
+host-suffix, afpapi.alimama.com
+host-suffix, a.9game.cn
+host-suffix, track.uc.cn
+host-suffix, adtrack.ucweb.com
+host-suffix, utp-dmp.ucweb.com
+host-suffix, utp.ucweb.com
+host-suffix, huichuan.sm.cn
+host-suffix, ynuf.alipay.com
+host-suffix, pdds.ucweb.com
+host-suffix, js.union-wifi.com
+host-suffix, qmlog.cn
+host-suffix, cpu.baidu.com
+host-suffix, caclick.baidu.com
+host-suffix, rescn.u3.ucweb.com
+host, feedback.uc.cn
+host, gj.applog.uc.cn
+host, gj.track.uc.cn
+host, gjapplog.uc.cn
+host, gjtrack.uc.cn
+host, holmeshelptest.uc.cn
+host-suffix, ads.uc.cn
+host-suffix, adslot.uc.cn
+host-suffix, alissl.ucdl.pp.uc.cn
+host-suffix, api.mp.uc.cn
+host-suffix, api.open.uc.cn
+host-suffix, applog.uc.cn
+host-suffix, applogios.uc.cn
+host-suffix, bench.uc.cn
+host-suffix, client.tv.uc.cn
+host-suffix, coral-task.uc.cn
+host-suffix, dispatcher.upmc.uc.cn
+host-suffix, hcadv.video.ums.uc.cn
+host-suffix, hao.uc.cn
+host-suffix, lobmuc.cn
+host-suffix, open-uc.cn
+host-suffix, puds.test.uae.uc.cn
+;host-suffix, t.uc.cn
+host-suffix, track.uc.cn
+host-suffix, wmedia-track.uc.cn
+host-suffix, woodpecker.uc.cn
+host, gecko-pangle-lf.snssdk.com
+host, mercury-sdk.snssdk.com
+host, tbm.snssdk.com
+host, toblog.ctobsnssdk.com
+host, tnc3-aliec2.snssdk.com
+host-suffix, kwurl.ucweb.com
+host-suffix, uc9.ucweb.com
+host-suffix, ucus.ucweb.com
+host-suffix, up4.ucweb.com
+host-suffix, wap3.ucweb.com
+host-suffix, adn.insight.ucweb.com
+host-suffix, hk.napi.ucweb.com
+host-suffix, sea.napi.ucweb.com
+host-suffix, bjcu.u3.ucweb.com
+host-suffix, vs8.gzct.u3.ucweb.com
+host-suffix, vs19.gzcu.u3.ucweb.com
+host-suffix, vs2.gzcu.u3.ucweb.com
+host-suffix, vs7.gzcu.u3.ucweb.com
+host-suffix, vs8.gzcu.u3.ucweb.com
+host-suffix, slot.union.ucweb.com
+
+# > Unity Ads
+host-suffix, config.unityads.unity3d.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ V ✅ <<<<<<<<<<<<<<
+# > Vivo
+host, adlog.vivo.com.cn
+host, adreq.vivo.com.cn
+host, ads-marketing-vivofs.vivo.com.cn
+host, adsdk.vivo.com.cn
+host, adsstatic.vivo.com.cn
+host, adxlog.vivo.com.cn
+host, vcardsdkservice.vivo.com.cn
+host-keyword, stsdk.vivo.com.cn
+host-keyword, stsdk.vivoglobal.com
+
+# > VIVO商城
+host-keyword, paradisestatic.vivo.com.cn
+
+
+
+# >>>>>>>>>>>>>>> ✅ W ✅ <<<<<<<<<<<<<<
+# > Whale Cloud (鲸云)
+host-suffix, whalecloud.com
+host-suffix, feedback.whalecloud.com
+
+# > Waps（无线广告交易中心）
+host-suffix, waps.cn
+host-suffix, app.waps.cn
+host-suffix, wapx.cn
+host-suffix, app.wapx.cn
+host-suffix, appcdn.wapx.cn
+host-suffix, imgcdn.wapx.cn
+host-suffix, push.wapx.cn
+host-suffix, wapscdn.wapx.cn
+host-suffix, wapx.com
+
+# > Wostore (联通沃商店)
+host-suffix, appspromote.wostore.cn
+host-suffix, secpay.wostore.cn
+host-suffix, unilog.wostore.cn
+host-suffix, unipaydl.wostore.cn
+host-suffix, unipayupg.wostore.cn
+
+# > WiFi万能钥匙
+host-keyword, app.51y5.net
+host-keyword, apiinit.amap.com
+host-keyword, c.51y5.net
+host-keyword, msg.push.51y5.net
+host-keyword, a.wkanx.com
+host-keyword, c.wkanx.com
+host-keyword, c1.wkanx.com
+host-keyword, ap.51y5.net
+host-keyword, dc.51y5.net
+host-keyword, push-dc.51y5.net
+host-keyword, news-log.51y5.net
+host-keyword, login.push.51y5.net
+host-keyword, news.51y5.net
+host-keyword, cds.51y5.net
+host-keyword, insurance.lianwifi.com
+host-keyword, config.51y5.net
+host-keyword, static.wkanx.com
+host-keyword, config.y5en.com
+# 万能钥匙专业版
+# 感谢【All in 梭哈】分享
+host-suffix, mi.gdt.qq.com
+# 去除导航栏免费短剧
+host, taichi.51y5.net
+
+# > 网易
+host-suffix, dsp.youdao.com
+host-suffix, union.youdao.com
+host, ad.bn.netease.com
+host, ad.yixin.im
+host, admusicpic.music.126.net
+host, g1.163.com
+host, gorgon.youdao.com
+host, iad.g.163.com
+host, iadmat.nosdn.127.net
+host, iadmusicmat.music.126.net
+host, iadmusicmatvideo.music.126.net
+host, impservice.dictapp.youdao.com
+host, impservice.youdao.com
+host, n.3g.163.com
+host, nex.163.com
+host, yt-adp.nosdn.127.net
+host, yt-adp.ws.126.net
+host-suffix, ir.mail.126.com
+host-suffix, adgeo.163.com
+host-suffix, bobo.163.com
+host-suffix, crashlytics.163.com
+host-suffix, e-p4p.163.com
+host-suffix, fa.163.com
+host-suffix, g.163.com
+host-suffix, g1.163.com
+host-suffix, nex.163.com
+host-suffix, popme.163.com
+host-suffix, temp.163.com
+host-suffix, n.3g.163.com
+host-suffix, gb.corp.163.com
+host-suffix, iad.g.163.com
+host-suffix, rec.g.163.com
+host-suffix, count.mail.163.com
+host-suffix, ir.mail.163.com
+host-suffix, irpmt.mail.163.com
+host-suffix, r.mail.163.com
+host-suffix, push.yuedu.163.com
+host-suffix, ad.bn.netease.com
+host-suffix, mr.da.netease.com
+host-suffix, pr.da.netease.com
+host-suffix, rd.da.netease.com
+host-suffix, wr.da.netease.com
+host-suffix, img1.126.net
+host-suffix, img2.126.net
+host-suffix, img3.126.net
+host-suffix, img6.126.net
+host-suffix, mimg.126.net
+host-suffix, pimg1.126.net
+host-suffix, push.126.net
+host-suffix, b.bst.126.net
+host-suffix, admusicpic.music.126.net
+host-suffix, iadmusicmat.music.126.net
+host-suffix, iadmusicmatvideo.music.126.net
+host-suffix, android.push.126.net
+host-suffix, news.push.126.net
+host-suffix, webstat.ws.126.net
+host-suffix, yt-adp.ws.126.net
+host-suffix, wanproxy.127.net
+host-suffix, haitaoad.nosdn.127.net
+host-suffix, iadmatvideo.nosdn.127.net
+host-suffix, yt-adp.nosdn.127.net
+host-suffix, ir.mail.yeah.net
+host-suffix, a.youdao.com
+host-suffix, c.youdao.com
+host-suffix, clkservice.youdao.com
+host-suffix, conv.youdao.com
+host-suffix, dsp-click.youdao.com
+host-suffix, dsp-impr.youdao.com
+host-suffix, dsp-impr2.youdao.com
+host-suffix, gorgon.youdao.com
+host-suffix, impservice.youdao.com
+host-suffix, impservice2.youdao.com
+host-suffix, log-yex.youdao.com
+host-suffix, rlogs.youdao.com
+host-suffix, ydpushserver.youdao.com
+host-suffix, b.clkservice.youdao.com
+host-suffix, d.clkservice.youdao.com
+host-suffix, i.clkservice.youdao.com
+host-suffix, m.clkservice.youdao.com
+host-suffix, p.clkservice.youdao.com
+host-suffix, s.clkservice.youdao.com
+host-suffix, nc004x.corp.youdao.com
+host-suffix, nc045x.corp.youdao.com
+host-suffix, qt002x.corp.youdao.com
+host-suffix, tb060x.corp.youdao.com
+host-suffix, tb104x.corp.youdao.com
+host-suffix, clkservice2.dict.youdao.com
+host-suffix, impservice.dictapp.youdao.com
+host-suffix, impservice-test.dictapp.youdao.com
+host-suffix, impservicetest.dictapp.youdao.com
+host-suffix, clkservice.mail.youdao.com
+host-suffix, clkservice.union.youdao.com
+host-suffix, log.yex.youdao.com
+
+# > 网易云
+# 此条会导致"淘宝->成就中心->淘宝人生"进不去
+;host-keyword, ossgw.alicdn.com
+
+# > 歪麦霸王餐
+# 去开屏
+host-suffix, ad.gameley.com
+host-suffix, zlsdk.1rtb.net
+
+# > 豌豆荚
+host-suffix, push.wandoujia.com
+
+# > 唯品会
+host-suffix, n-st.vip.com
+host-suffix, api.union.vip.com
+host-suffix, ms.vipstatic.com
+
+# > 威锋
+# 广告联盟已包含
+#host-suffix, aoodoo.feng.com
+#host-suffix, push.feng.com
+#host-suffix, aoodoo.weiphone.com
+
+
+# >>>>>>>>>>>>>>> ✅ X ✅ <<<<<<<<<<<<<<
+# > 讯飞输入法
+host-keyword, ossp.voicecloud.cn
+host-keyword, bj.imp.voiceads.cn
+host-keyword, m.panda.voiceads.cn
+host-keyword, iflyad.bj.openstorage.cn
+
+# > 喜马拉雅
+host, adsehera.ximalaya.com
+host, adse.wsa.ximalaya.com
+host, adbehavior.ximalaya.com
+host, adbehavior.wsa.ximalaya.com
+host-suffix, ad.ximalaya.com
+host-suffix, adse.ximalaya.com
+host-suffix, adse-v2.ximalaya.com
+host-suffix, open.ximalaya.com
+host-suffix, upos-app.ximalaya.com
+
+# > 小红书
+host, ads-img-qc.xhscdn.com
+host, ads-img-al.xhscdn.com
+host, ads-video-al.xhscdn.com
+host, ads-video-qc.xhscdn.com
+host, t-ads.xiaohongshu.com
+
+# > 小米
+host-KEYWORD, XiaoQiang
+host-suffix, ad.mi.com
+host-suffix, ad1.xiaomi.com
+host-suffix, admob.xiaomi.com
+host-suffix, shenghuo.xiaomi.com
+host-suffix, xmpush.xiaomi.com
+host-suffix, image.box.xiaomi.com
+host-suffix, notice.game.xiaomi.com
+host-suffix, ppurifier.game.xiaomi.com
+host-suffix, ad.intl.xiaomi.com
+host-suffix, sdkconfig.ad.intl.xiaomi.com
+host-suffix, wtradv.market.xiaomi.com
+host-suffix, abtest.mistat.xiaomi.com
+host-suffix, data.mistat.xiaomi.com
+host-suffix, storeconfig.mistat.xiaomi.com
+host-suffix, bss.pandora.xiaomi.com
+host-suffix, dvb.pandora.xiaomi.com
+host-suffix, jellyfish.pandora.xiaomi.com
+host-suffix, m.bss.pandora.xiaomi.com
+host-suffix, resolver.gslb.mi-idc.com
+host-suffix, f3.mi-stat.gslb.mi-idc.com
+host-suffix, app01.nodes.gslb.mi-idc.com
+host-suffix, app02.nodes.gslb.mi-idc.com
+host-suffix, tracking.miui.com
+host-suffix, hot.browser.miui.com
+host-suffix, r.browser.miui.com
+host-suffix, reader.browser.miui.com
+host-suffix, security.browser.miui.com
+host-suffix, calopenupdate.comm.miui.com
+host-suffix, tracking.intl.miui.com
+host-suffix, adv.sec.intl.miui.com
+host-suffix, adv.sec.miui.com
+host-suffix, api.sec.miui.com
+host-suffix, info.sec.miui.com
+host-suffix, proxy.sec.miui.com
+host-suffix, logupdate.avlyun.sec.miui.com
+host-suffix, update.avlyun.sec.miui.com
+host-suffix, etl.xlmc.sec.miui.com
+host-suffix, adinfo.ra1.xlmc.sec.miui.com
+host-suffix, api.ra2.xlmc.sec.miui.com
+host-suffix, api.tw06.xlmc.sec.miui.com
+host-suffix, metok.sys.miui.com
+host-suffix, api.xk.miui.com
+host-suffix, fb.xk.miui.com
+host-suffix, lxcdn.dl.files.xiaomi.net
+host-suffix, pdc.micloud.xiaomi.net
+host-suffix, migrate.driveapi.micloud.xiaomi.net
+host-suffix, resolver.msg.xiaomi.net
+host-suffix, mlog.search.xiaomi.net
+host-suffix, staging.admin.e.mi.com
+host-suffix, migc.g.mi.com
+host-suffix, migcreport.g.mi.com
+host-suffix, mis.g.mi.com
+host-suffix, mivideo.g.mi.com
+host-suffix, a.hl.mi.com
+host-suffix, api.jr.mi.com
+host-suffix, a.union.mi.com
+
+# > 小小影视
+host, 39d83s.com
+
+# > 小利生活
+host-keyword, mpos-pic.helipay.com
+
+# > 小爱音箱
+host, mistat.xiaomi.com
+
+# > 晓晓优选
+host-suffix, adintl.cn
+host-suffix, zhangyuyidong.cn
+host-suffix, 1sapp.com
+host-suffix, aiclk.com
+host-suffix, adbiding.com
+host-suffix, xwpbj.com
+host-suffix, qttunion.com
+host-suffix, qiyukf.com
+host-suffix, fancyapi.com
+host-suffix, ad.richmob.cn
+host-suffix, api-htp.beizi.biz
+host-suffix, yfanads.com
+host-suffix, 1rtb.net
+host-suffix, adwangmai.com
+host-suffix, yunxinfw.com
+host-suffix, bridgeoos.com
+host-suffix, cloooud.com
+host-suffix, baihemob.com
+host-suffix, ad.bwton.com
+host-suffix, api.wxcjgg.cn
+host-suffix, shunchangzhixing.com
+IP-CIDR, 114.132.165.205/32
+
+# > 新浪
+host-suffix, ad.sina.com.cn
+host-suffix, ad4.sina.com.cn
+host-suffix, adbox.sina.com.cn
+host-suffix, counter.sina.com.cn
+host-suffix, current.sina.com.cn
+host-suffix, d0.sina.com.cn
+host-suffix, d00.sina.com.cn
+host-suffix, d1.sina.com.cn
+host-suffix, d2.sina.com.cn
+host-suffix, d3.sina.com.cn
+host-suffix, d4.sina.com.cn
+host-suffix, d5.sina.com.cn
+host-suffix, d6.sina.com.cn
+host-suffix, d7.sina.com.cn
+host-suffix, d8.sina.com.cn
+host-suffix, d9.sina.com.cn
+host-suffix, dcads.sina.com.cn
+host-suffix, p4p.sina.com.cn
+host-suffix, pfp.sina.com.cn
+host-suffix, rm.sina.com.cn
+host-suffix, sax.sina.com.cn
+host-suffix, saxn.sina.com.cn
+host-suffix, saxs.sina.com.cn
+host-suffix, sbeacon.sina.com.cn
+host-suffix, slog.sina.com.cn
+host-suffix, woocall.sina.com.cn
+host-suffix, img.amp.ad.sina.com.cn
+host-suffix, img.adbox.sina.com.cn
+host-suffix, m.beacon.sina.com.cn
+host-suffix, r.dmp.sina.com.cn
+host-suffix, int.dpool.sina.com.cn
+host-suffix, mg.games.sina.com.cn
+host-suffix, adm.leju.sina.com.cn
+host-suffix, staticadm.leju.sina.com.cn
+host-suffix, cre.mix.sina.com.cn
+host-suffix, interest.mix.sina.com.cn
+host-suffix, s.img.mix.sina.com.cn
+host-suffix, motu.p4p.sina.com.cn
+host-suffix, count.video.sina.com.cn
+host-suffix, sinaaliyun.cn
+host-suffix, ad.sina.com.cn
+host-suffix, ad4.sina.com.cn
+host-suffix, adbox.sina.com.cn
+host-suffix, counter.sina.com.cn
+host-suffix, current.sina.com.cn
+host-suffix, d0.sina.com.cn
+host-suffix, d00.sina.com.cn
+host-suffix, d1.sina.com.cn
+host-suffix, d2.sina.com.cn
+host-suffix, d3.sina.com.cn
+host-suffix, d4.sina.com.cn
+host-suffix, d5.sina.com.cn
+host-suffix, d6.sina.com.cn
+host-suffix, d7.sina.com.cn
+host-suffix, d8.sina.com.cn
+host-suffix, d9.sina.com.cn
+host-suffix, dcads.sina.com.cn
+host-suffix, p4p.sina.com.cn
+host-suffix, pfp.sina.com.cn
+host-suffix, rm.sina.com.cn
+host-suffix, sax.sina.com.cn
+host-suffix, saxn.sina.com.cn
+host-suffix, saxs.sina.com.cn
+host-suffix, sbeacon.sina.com.cn
+host-suffix, slog.sina.com.cn
+host-suffix, woocall.sina.com.cn
+host-suffix, img.amp.ad.sina.com.cn
+host-suffix, img.adbox.sina.com.cn
+host-suffix, m.beacon.sina.com.cn
+host-suffix, r.dmp.sina.com.cn
+host-suffix, int.dpool.sina.com.cn
+host-suffix, mg.games.sina.com.cn
+host-suffix, adm.leju.sina.com.cn
+host-suffix, staticadm.leju.sina.com.cn
+host-suffix, cre.mix.sina.com.cn
+host-suffix, interest.mix.sina.com.cn
+host-suffix, s.img.mix.sina.com.cn
+host-suffix, motu.p4p.sina.com.cn
+host-suffix, count.video.sina.com.cn
+host-suffix, 2016.sina.cn
+host-suffix, cre-dp.sina.cn
+host-suffix, dmp.sina.cn
+host-suffix, palmnews.sina.cn
+host-suffix, sapi.sina.cn
+host-suffix, slog.sina.cn
+host-suffix, api.apps.sina.cn
+host-suffix, cre.dp.sina.cn
+host-suffix, dl.kjava.sina.cn
+host-suffix, adimg.mobile.sina.cn
+host-suffix, contentrecommend-out.mobile.sina.cn
+host-suffix, pay.mobile.sina.cn
+host-suffix, sdkapp.mobile.sina.cn
+host-suffix, sdkclick.mobile.sina.cn
+host-suffix, trends.mobile.sina.cn
+host-suffix, wapwbclick.mobile.sina.cn
+host-suffix, wbapp.mobile.sina.cn
+host-suffix, wbclick.mobile.sina.cn
+host-suffix, wbpctips.mobile.sina.cn
+host-suffix, u1.img.mobile.sina.cn
+host-suffix, d0.sinaimg.cn
+host-suffix, d1.sinaimg.cn
+host-suffix, d2.sinaimg.cn
+host-suffix, d3.sinaimg.cn
+host-suffix, d6.sinaimg.cn
+host-suffix, d7.sinaimg.cn
+host-suffix, d8.sinaimg.cn
+host-suffix, newspush.sinajs.cn
+host-suffix, rs.sinajs.cn
+host-suffix, sinaalicdn.com
+host-suffix, oascentral.sina.com
+host-suffix, pfpip.sina.com
+host-suffix, 73.sinawap.com
+host-suffix, s3.pfp.sina.net
+host-suffix, adimages.sina.com.hk
+host-suffix, oascentral.sina.com.hk
+host-suffix, dd.iask.cn
+
+# > 新华网
+host-suffix, tmisc.home.news.cn
+host-suffix, webd.home.news.cn
+
+# > 新民网
+host-suffix, iads.xinmin.cn
+host-suffix, total.xinmin.cn
+host-suffix, www2.xinmin.cn
+
+# > 寻医问药
+host-suffix, a.xywy.com
+host-suffix, bdmjs.xywy.com
+host-suffix, bdmm.xywy.com
+host-suffix, gg.xywy.com
+host-suffix, hao123.xywy.com
+host-suffix, page.xywy.com
+host-suffix, stat-y.xywy.com
+host-suffix, stat-z.xywy.com
+
+# > 雪球
+host-suffix, ad.xueqiu.com
+# 可以去掉倒计时，但是误杀很多图片，默认关闭
+# host-keyword, xqimg.imedao.com, reject
+
+
+
+# >>>>>>>>>>>>>>> ✅ Y ✅ <<<<<<<<<<<<<<
+# > Yahoo
+host-suffix, adss.yahoo.com
+host-suffix, beap-bc.yahoo.com
+host-suffix, comet.yahoo.com
+host-suffix, geo.yahoo.com
+host-suffix, marketingsolutions.yahoo.com
+host-suffix, p3p.yahoo.com
+host-suffix, themis.yahoo.com
+host-suffix, ysm.yahoo.com
+host-suffix, us.adserver.yahoo.com
+host-suffix, beap.adss.yahoo.com
+host-suffix, clicks.beap.bc.yahoo.com
+host-suffix, aliunion.cn.yahoo.com
+host-suffix, cm.p4p.cn.yahoo.com
+host-suffix, n.gemini.yahoo.com
+host-suffix, doubleplay-conf-yql.media.yahoo.com
+host-suffix, ws.progrss.yahoo.com
+host-suffix, analytics.query.yahoo.com
+host-suffix, locdrop.query.yahoo.com
+host-suffix, onepush.query.yahoo.com
+host-suffix, iframe.travel.yahoo.com
+host-suffix, m.yap.yahoo.com
+host-suffix, pr.ybp.yahoo.com
+host-suffix, pr-bh.ybp.yahoo.com
+host-suffix, js-apac-ss.ysm.yahoo.com
+host-suffix, w.homes.yahoo.net
+host-suffix, yieldmanager.com
+host-suffix, ard.yahoo.co.jp
+host-suffix, yads.yahoo.co.jp
+host-suffix, yeas.yahoo.co.jp
+host-suffix, rd.ane.yahoo.co.jp
+host-suffix, bc.geocities.yahoo.co.jp
+host-suffix, im.ov.yahoo.co.jp
+host-suffix, adserver.yahoo.com
+host-suffix, adspecs.yahoo.com
+host-suffix, advertising.yahoo.com
+host-suffix, gemini.yahoo.com
+host, admarketing.yahoo.net
+host, ads.auctions.yahoo.com
+host, ads.finance.yahoo.com
+host, ads.yahoo.com
+host, ads.yahoo.de
+
+# > 一点资讯
+host-suffix, imagelx.yidianzixun.com
+host-suffix, l.yidianzixun.com
+host-suffix, lx-upload-log.yidianzixun.com
+host-suffix, oppo.yidianzixun.com
+host-suffix, s.yidianzixun.com
+
+# > 音悦Tai
+host-suffix, shop.yinyuetai.com
+host-suffix, statisticsv2.yinyuetai.com
+host-suffix, shop.admin.yinyuetai.com
+host-suffix, t.collect.yinyuetai.com
+host-suffix, client.stats.yinyuetai.com
+
+# > 游迅网
+host-suffix, ccr.yxdown.com
+host-suffix, gg.yxdown.com
+host-suffix, ggr.yxdown.com
+
+# > YY直播平台
+host-suffix, gt.yy.com
+
+# > 亚信科技
+host-suffix, ad.asiainfo.com
+
+# > 悠易互通
+host-suffix, yoyi.com.cn
+host-suffix, aim.yoyi.com.cn
+host-suffix, air.yoyi.com.cn
+host-suffix, amps.yoyi.com.cn
+host-suffix, atm.yoyi.com.cn
+host-suffix, d.yoyi.com.cn
+host-suffix, databank.yoyi.com.cn
+host-suffix, m.yoyi.com.cn
+host-suffix, mapping.yoyi.com.cn
+host-suffix, databank.air.yoyi.com.cn
+host-suffix, log2.air.yoyi.com.cn
+host-suffix, g.rs.yoyi.com.cn
+host-suffix, h.sora.yoyi.com.cn
+host-suffix, z.sora.yoyi.com.cn
+host-suffix, yoyi.tv
+host-suffix, d.yoyi.tv
+host-suffix, js.yoyi.tv
+host-suffix, g.d.yoyi.tv
+host-suffix, t.d.yoyi.tv
+
+# > 云闪付
+host, ads.95516.com
+host, tysdk.95516.com
+host, cm-10-138.getui.com
+host, sdk.open.talk.getui.net
+host, sdk-conf.getui.com
+host, switch.cup.com.cn
+host, ads.cup.com.cn
+
+# > 云之家
+host-suffix, ad.yunzhijia.com
+
+# > 优酷
+host-suffix, partner.uc.cn
+host-suffix, ubixioe.com
+host-suffix, uczzd.cn
+host-suffix, ranfenghd.com
+host-suffix, zconfig.alibabausercontent.com
+host-suffix, bgg.baidu.com
+# host-suffix, gdt.qq.com, reject
+# host-suffix, sdk.e.qq.com, reject
+# host-suffix, mazu.m.qq.com, reject
+# host-suffix, snowflake.qq.com, reject
+# host-suffix, acz.youku.com, reject
+host-suffix, adx-core.youku.com
+host-suffix, adx-open-service.youku.com
+host-suffix, rhdc-acs.youku.com
+# host-suffix, cad.youku.com, reject
+# host-suffix, sjarvis.taobao.com, reject
+DOMAIN, httpdns.alicdn.com
+DOMAIN, adsmind.ugdtimg.com
+DOMAIN, amdc.m.youku.com
+DOMAIN, apiv4-iyes.youku.com
+# DOMAIN, iyes.youku.com, reject
+# DOMAIN, mc.atm.youku.com, reject
+DOMAIN, yk-ssp.ad.youku.com
+DOMAIN, ykad-data.youku.com
+DOMAIN, ad.mobile.youku.com
+host-suffix, ad.api.3g.tudou.com
+host-suffix, ad.api.3g.youku.com
+host-suffix, ad.api.mobile.youku.com
+host-suffix, gamex.mobile.youku.com
+# host-suffix, actives.youku.com, reject
+# host-suffix, store.tv.api.3g.youku.com, reject
+# host-suffix, store.xl.api.3g.youku.com, reject
+# host-suffix, a-dxk.play.api.3g.youku.com, reject
+# host-suffix, b.smartvideo.youku.com, reject
+# host-suffix, c.yes.youku.com, reject
+# host-suffix, das.api.youku.com, reject
+# host-suffix, das.mobile.youku.com, reject
+# host-suffix, dev-push.m.youku.com, reject
+# host-suffix, push.m.youku.com, reject
+# host-suffix, sdk.m.youku.com, reject
+# host-suffix, dl.g.youku.com, reject
+# host-suffix, dmapp.youku.com, reject
+# host-suffix, hudong.pl.youku.com, reject
+# host-suffix, huodong.pl.youku.com, reject
+# host-suffix, huodong.vip.youku.com, reject
+# host-suffix, hz.youku.com, reject
+# host-suffix, lstat.youku.com, reject
+# host-suffix, m.yes.youku.com, reject
+# host-suffix ,mobilemsg.youku.com, reject
+# host-suffix, msg.youku.com, reject
+# host-suffix, myes.youku.com, reject
+host-suffix, p.l.youku.com
+host-suffix, r.l.youku.com
+host-suffix, v.l.youku.com
+host-suffix, l.ykimg.com
+host-suffix, p-log.ykimg.com
+host-suffix, s.p.youku.com
+host-suffix, tdrec.youku.com
+host-suffix, test.ott.youku.com
+# host-suffix, stat.youku.com, reject
+# host-suffix, urchin.lstat.youku.com, reject
+# host-suffix, val.api.youku.com, reject
+# host-suffix, wan.youku.com, reject
+# host-suffix, ykatr.youku.com, reject
+# host-suffix, ykrec.youku.com, reject
+
+# > 游民星空
+host-suffix, ja.gamersky.com
+host-suffix, ja1.gamersky.com
+
+# > 易车
+host, adx.yiche.com
+host, log.ycapp.yiche.com
+host-suffix, bglog.bitauto.com
+host-suffix, g.bitauto.com
+host-suffix, gimg.bitauto.com
+host-suffix, gstat.bitauto.com
+
+# > 易查
+host-suffix, yicha.cn
+host-suffix, adsmart.yicha.cn
+host-suffix, tuiguang.yicha.cn
+
+# > 有米
+host-suffix, wumii.cn
+host-suffix, wumii.com
+host-suffix, app.wumii.com
+host-suffix, youmi.net
+host-suffix, au.youmi.net
+host-suffix, notifiter.youmi.net
+host-suffix, r.youmi.net
+host-suffix, s.youmi.net
+host-suffix, t.youmi.net
+host-suffix, aos.wall.youmi.net
+
+# > 央视网
+host, galaxy.bjcathay.com
+host, mdrecv.app.cntvwb.cn
+host, sdapprecv.app.cntvwb.cn
+host, vdapprecv.app.cntvwb.cn
+host-suffix, a.cctv.com
+host-suffix, ad.cntv.cn
+host-suffix, ad.cctv.com
+host-suffix, ad-cdn.cctv.com
+host-suffix, ad-cdn_core.cctv.com
+host-suffix, ad_core.cctv.com
+host-suffix, ad_m.cctv.com
+host-suffix, adguanggao.eee114.com
+host-suffix, afp.qiyi.com
+host-suffix, cctv.adsunion.com
+host-suffix, d.cntv.cn
+host-suffix, de.pandora.xiaomi.com
+host-suffix, mishop.pandora.xiaomi.com
+host-suffix, cws-cctv.conviva.com
+host-suffix, mdrecv.app.cntvwb.cn
+host-suffix, sdapprecv.app.cntvwb.cn
+host-suffix, vdapprecv.app.cntvwb.cn
+
+# > 央视影音 (CBox)
+host-suffix, adxserver.ad.cmvideo.cn
+host-suffix, dspserver.ad.cmvideo.cn
+host-suffix, openstorage.ad.cmvideo.cn
+
+# > 一刻相册
+# 广告联盟已包含
+
+# > 元聚网络（漫画岛，追书神器，甜瓜小说）
+host-suffix, d.1391.com
+host-suffix, lyapi.1391.com
+host-suffix, lyjk.1391.com
+host-suffix, mhd.1391.com
+host-suffix, mhdpay.1391.com
+host-suffix, mhdtestks3.1391.com
+host-suffix, mhdufile.1391.com
+host-suffix, mhjk.1391.com
+host-suffix, sqtpks3.1391.com
+
+# > 艺龙
+host-suffix, d.elong.cn
+host-suffix, mhuodong.elong.com
+
+# > 悠视网
+host-suffix, g.uusee.com
+host-suffix, pop.uusee.com
+host-suffix, traffic.uusee.com
+
+# > 游久网
+host-suffix, gg.uuu9.com
+
+
+
+# >>>>>>>>>>>>>>> ✅ Z ✅ <<<<<<<<<<<<<<
+# > ZAKER新闻
+host-suffix, adm.myzaker.com
+host-suffix, ggs.myzaker.com
+host-suffix, push-android.myzaker.com
+
+# > 知乎
+USER-AGENT,AVOS*
+host, appcloud.zhihu.com
+host, appcloud2.in.zhihu.com
+host, mqtt.zhihu.com
+host, sugar.zhihu.com
+host, crash2.zhihu.com
+IP-CIDR, 118.89.204.198/32
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+
+# > 中关村
+host-suffix, apppv.zol.com.cn
+host-suffix, cpro.zol.com.cn
+host-suffix, dynamic.zol.com.cn
+host-suffix, imp.zol.com.cn
+host-suffix, js.zol.com.cn
+host-suffix, mstat.zol.com.cn
+host-suffix, pv.zol.com.cn
+host-suffix, pvc.zol.com.cn
+host-suffix, pvm.zol.com.cn
+host-suffix, pvmsite.zol.com.cn
+host-suffix, pvnapp.zol.com.cn
+host-suffix, pvsite.zol.com.cn
+host-suffix, pvtest.zol.com.cn
+host-suffix, wappv.zol.com.cn
+host-suffix, ydjs.zol.com.cn
+host-suffix, afp.zol-img.com.cn
+host-suffix, pic.zol-img.com.cn
+host-suffix, api.zol.com
+
+# > 中国移动
+IP-CIDR, 120.240.95.37/32
+
+# > 中国联通
+host-suffix, m1.ad.10010.com
+
+# > 中国电信
+host, ad.21cn.com
+host, ad.k.21cn.com
+host, admarket.21cn.com
+host, adshows.21cn.com
+IP-CIDR, 122.229.8.47/32
+IP-CIDR, 122.229.29.89/32
+
+# > 中信银行
+;host-suffix, sis.jpush.io
+;host-suffix, s.jpush.cn
+;host-suffix, jpush.cn
+;host-suffix, im64.jpush.cn
+;host-suffix, im.jpush.cn
+;host-suffix, jpush.html5.qq.com
+
+# > 中华万年历
+host-keyword, lkme.cc
+host-keyword, api.freed.so
+host-keyword, log-dmp.suishenyun.cn
+host-keyword, client-dmp.suishenyun.cn
+host-keyword, pc.suishenyun.net
+host-keyword, v0-client-lz.rili.cn
+host-suffix, ad.51wnl.com
+host-suffix, ad-android.51wnl.com
+host-suffix, ad.51wnl-cq.com
+host-suffix, adextra.51wnl-cq.com
+
+# > 中华网
+host-suffix, union.china.com.cn
+host-suffix, dvs.china.com
+host-suffix, dvsend.china.com
+host-suffix, dvser.china.com
+host-suffix, dvser02.china.com
+host-suffix, sssvd.china.com
+host-suffix, rank.hit.china.com
+
+# > 中国日报
+host-suffix, same.chinadaily.com.cn
+host-suffix, usercollection.chinadaily.com.cn
+
+# > 中国国际广播电视网络台（CIBN）
+# host-suffix, api.adv.ott.cibntv.net, reject
+# host-suffix, adinf.cp11.ott.cibntv.net, reject
+# host-suffix, adstat.cp11.ott.cibntv.net, reject
+# host-suffix, apklog.cp11.ott.cibntv.net, reject
+# host-suffix, cachenotice.cp11.ott.cibntv.net, reject
+# host-suffix, ark.cp21.ott.cibntv.net, reject
+# host-suffix, dc.cp21.ott.cibntv.net, reject
+# host-suffix, atm.cp31.ott.cibntv.net, reject
+# host-suffix, ipm.atm.cp31.ott.cibntv.net, reject
+# host-suffix, val.atm.cp31.ott.cibntv.net, reject
+# host-suffix, valf.atm.cp31.ott.cibntv.net, reject
+# host-suffix, aty.cp45.ott.cibntv.net, reject
+# host-suffix, agn.aty.cp45.ott.cibntv.net, reject
+# host-suffix, m.aty.cp45.ott.cibntv.net, reject
+# host-suffix, mmg.aty.cp45.ott.cibntv.net, reject
+# host-suffix, de.as.cp61.ott.cibntv.net, reject
+# host-suffix, lives.l.cp81.ott.cibntv.net, reject
+# host-suffix, news-l.play.cp81.ott.cibntv.net, reject
+
+# > 中国平安
+host-suffix, events.pingan.com
+
+# > 真不卡
+host-suffix, ttayy.cn
+host-suffix, zhengxiaoliu.top
+
+# > 字节跳动
+host, ad.zijieapi.com
+host, applog.zijieapi.com
+host-suffix, -normal-lq.zijieapi.com
+host-suffix, dm.bytedance.com
+host-suffix, xlog-va.byteoversea.com
+host-suffix, tosv.byted.org
+host-suffix, tosv.boe.byted.org
+host-suffix, extlog.snssdk.com
+host-suffix, sdfp.snssdk.com
+host-suffix, temai.snssdk.com
+host-suffix, xlog.snssdk.com
+host-suffix, ad.toutiao.com
+host-suffix, dm.toutiao.com
+host-suffix, dsp.toutiao.com
+host-suffix, nativeapp.toutiao.com
+host-suffix, partner.toutiao.com
+host-suffix, track.toutiao.com
+host-suffix, dm.pstatp.com
+host-suffix, pb3.pstatp.com
+host-suffix, s3a.pstatp.com
+
+# > 作业帮
+host-suffix, bu01.zybang.com
+host-suffix, bu02.zybang.com
+
+# > 招钱进宝
+# 广告联盟已包含
+
+
+
+# >>>>>>>>>>>>>>> ✅ # ✅ <<<<<<<<<<<<<<
+# > 广告联盟
+# 若有问题自行设置白名单
+host-suffix, miaozhen.com
+host-suffix, ad-sign.byteimg.com
+host-suffix, tos.pstatp.com
+host-keyword, asiad.byteactivity
+host-keyword, pangolin-sdk-toutiao
+host-keyword, pglstatp-toutiao
+host-suffix, pangolin.snssdk.com
+host-suffix, video-cn.snssdk.com
+host-suffix, getui.com
+host-suffix, getui.net
+host-suffix, gepush.com
+host-suffix, igexin.com
+host-suffix, log.aliyuncs.com
+host-suffix, zlsdk.1rtb.net
+host-suffix, cdntips.net
+host-suffix, tfogc.com
+#host-keyword, volc, reject
+host-keyword, umeng
+host-suffix, 1a-1791.com
+host-suffix, rumble.com
+
+# Ad-Stir
+host-suffix, ad-stir.com
+# Adadapted
+host-suffix, adadapted.com
+host-suffix, ads.adadapted.com
+
+# AdChina
+host-suffix, adchina.com
+host-suffix, adchina.io
+
+# AddThis
+host-suffix, addthis.com
+host-suffix, addthisedge.com
+
+# Adform
+host-keyword, adform
+
+# Adhouyi (广告后台)
+host-suffix, ad.adhouyi.cn
+host-suffix, adhouyi.com
+
+# Adinall
+host-suffix, adinall.com
+
+# Adition
+host-suffix, ad8.adfarm1.adition.com
+host-suffix, dsp.adfarm1.adition.com
+
+# Adjust
+host-suffix, adjust.io
+
+# Admarvel
+host-suffix, admarvel.com
+
+# AdRoll
+host-suffix, adroll.com
+
+# Adtaily
+host-suffix, adtaily.com
+
+# Adups
+host-suffix, fota4.adups.cn
+host-suffix, adups.com
+
+# Adview
+host-suffix, adview.cn
+
+# Adwo
+host-suffix, adwo.com
+
+# Adzerk
+host-suffix, adzerk.net
+
+# Ad-m.asia
+host-suffix, sync-dsp.ad-m.asia
+
+# AdColony
+host-suffix, adcolony.com
+
+# AerServ
+host-suffix, aerserv.com
+
+# Airpush
+host-suffix, airpush.com
+
+# App-Adforce
+host-suffix, app-adforce.jp
+
+# Appadhoc
+host-suffix, appadhoc.com
+host-suffix, sdk.appadhoc.com
+
+# AppsFlyer
+host-suffix, appsflyer.com
+
+# Appdriver
+host-suffix, appdriver.cn
+host-suffix, appdriver.com.cn
+
+# Cacafly
+host-suffix, ad.cacafly.com
+host-suffix, cacafly.net
+
+# Casale Media
+host-suffix, casalemedia.com
+host-suffix, as.casalemedia.com
+host-suffix, ssum.casalemedia.com
+
+# Chartboost
+host-suffix, chartboost.com
+
+# Clicki
+host-suffix, clicki.cn
+
+# CNZZ
+host-suffix, cnzz.com
+host-suffix, s96.cnzz.com
+
+# Criteo
+host-suffix, criteo.net
+host-suffix, criteo.com
+host-suffix, dis.crieto.com
+host-suffix, cas.criteo.com
+host-suffix, dis.criteo.com
+host-suffix, gum.criteo.com
+host-suffix, rtax.criteo.com
+host-suffix, widget.criteo.com
+host-suffix, dis.us.criteo.com
+
+# comScore
+host-suffix, scorecardresearch.com
+host-suffix, b.scorecardresearch.com
+host-suffix, sb.scorecardresearch.com
+host-suffix, udm.scorecardresearch.com
+
+# Dianjoy
+host-suffix, dianjoy.com
+host-suffix, a.dianjoy.com
+host-suffix, fast-cdn.dianjoy.com
+
+# Dianru
+host-suffix, dianru.com
+host-suffix, api.dianru.com
+host-suffix, api.android.dianru.com
+
+# dtscout
+host-keyword, dtscout
+host-suffix, dtscout.com
+
+# Exoclick
+host-suffix, main.exoclick.com
+host-suffix, syndication.exoclick.com
+
+# Exosrv
+host-suffix, exosrv.com
+host-suffix, ads.exosrv.com
+
+# Flurry
+host-suffix, flurry.com
+host-suffix, ad.flurry.com
+host-suffix, adlog.flurry.com
+host-suffix, proton.flurry.com
+host-suffix, flurry.cachefly.net
+
+# Guomob (果盟)
+host-suffix, guomob.com
+
+# GrowingIO
+host-suffix, giocdn.com
+host-suffix, growingio.com
+host-suffix, api.growingio.com
+host-suffix, apihk.growingio.com
+host-suffix, crashapi.growingio.com
+host-suffix, t.growingio.com
+host-suffix, tags.growingio.com
+
+# iClick
+host-suffix, mfan.iclick.com.cn
+
+# Innity
+host-suffix, innity.com
+host-suffix, avn.innity.com
+host-suffix, cast.innity.com
+host-suffix, innity.net
+host-suffix, cdn.innity.net
+host-suffix, cdn.media.innity.net
+host-suffix, ssl-cdn.media.innity.net
+
+# Inveno
+host-suffix, business.inveno.com
+host-suffix, malacca.inveno.com
+host-suffix, zuimeitianqi.inveno.com
+
+# InMobi
+host-suffix, inmobi.cn
+host-suffix, inmobicdn.cn
+host-suffix, inmobi.com
+host-suffix, inmobi.net
+host-suffix, inmobicdn.net
+
+# IronSource
+host-suffix, ironsrc.com
+host-suffix, supersonic.com
+host-suffix, supersonicads.com
+
+# iPinYou (品友互动)
+host-suffix, ipinyou.com
+
+# Jesgoo
+host-suffix, jesgoo.com
+host-suffix, cdn.jesgoo.com
+host-suffix, rcv.jesgoo.com
+
+# JuicyAds
+host-suffix, juicyads.com
+host-suffix, juicyads.in
+host-suffix, adserver.juicyads.com
+host-suffix, img.jizzads.com
+
+# Kejet
+host-suffix, kejet.com
+host-suffix, as.kejet.com
+host-suffix, code.kejet.com
+host-suffix, dmacore.kejet.com
+host-suffix, kejet.net
+host-suffix, as.kejet.net
+host-suffix, aw.kejet.net
+host-suffix, ck.kejet.net
+host-suffix, cmarket.kejet.net
+host-suffix, dmacore.kejet.net
+host-suffix, dmp.kejet.net
+host-suffix, ec.kejet.net
+host-suffix, hzdmacore.kejet.net
+host-suffix, m.kejet.net
+host-suffix, rtb-p.kejet.net
+
+# Keyrun
+host-suffix, keyrun.cn
+host-suffix, c1.keyrun.cn
+host-suffix, keyrun.com
+
+# Kissmetrics
+host-suffix, kissmetrics.com
+
+# Krux
+host-suffix, krux.net
+
+# 酷云互动
+host-suffix, config.kuyun.com
+host-suffix, logonext.tv.kuyun.com
+
+# Kochava
+host-suffix, kochava.com
+
+# Leadbolt
+host-suffix, leadbolt.net
+host-suffix, ad.leadbolt.net
+host-suffix, api.leadbolt.net
+host-suffix, leadboltads.net
+host-suffix, ad.leadboltads.net
+host-suffix, leadboltapps.net
+host-suffix, ad.leadboltapps.net
+host-suffix, leadboltmobile.net
+host-suffix, ad.leadboltmobile.net
+
+# Localytics
+host-suffix, localytics.com
+
+# 亿动广告传媒
+host-suffix, madserving.com
+host-suffix, ad.madserving.com
+host-suffix, adv.madserving.com
+host-suffix, appsrv1.madserving.com
+host-suffix, appsrv4.madserving.com
+host-suffix, clk.madserving.com
+host-suffix, imp.madserving.com
+host-suffix, clk.pdb.madserving.com
+host-suffix, imp.pdb.madserving.com
+host-suffix, madhouse.cn
+
+# Marketgid
+host-suffix, marketgid.com
+host-suffix, ag-gb.marketgid.com
+host-suffix, cdn.marketgid.com
+host-suffix, counter.marketgid.com
+host-suffix, imgg.marketgid.com
+host-suffix, jsc.marketgid.com
+host-suffix, wsp.marketgid.com
+
+# 聚胜万合
+host-suffix, mediav.com
+
+# MGID
+host-suffix, mgid.com
+host-suffix, aa-gb.mgid.com
+host-suffix, ab-gb.mgid.com
+host-suffix, ac-gb.mgid.com
+host-suffix, ad-gb.mgid.com
+host-suffix, ae-gb.mgid.com
+host-suffix, aj-gb.mgid.com
+host-suffix, imgg.mgid.com
+host-suffix, jsc.mgid.com
+host-suffix, usr.mgid.com
+host-suffix, aa.goodsblock.mgid.com
+host-suffix, ab.goodsblock.mgid.com
+
+# Millennial Media
+host-suffix, millennialmedia.com
+host-suffix, cdn.millennialmedia.com
+host-suffix, images.millennialmedia.com
+
+# Mixpanel
+host-suffix, mxpnl.com
+
+# Moat
+host-suffix, moatads.com
+host-suffix, geo.moatads.com
+host-suffix, js.moatads.com
+host-suffix, px.moatads.com
+host-suffix, z.moatads.com
+
+# 创智汇聚
+host-suffix, cca.mob.com
+host-suffix, api.cmt.mob.com
+host-suffix, c.data.mob.com
+host-suffix, devs.data.mob.com
+host-suffix, m.data.mob.com
+host-suffix, api.exc.mob.com
+host-suffix, api.share.mob.com
+
+# Mobfox
+host-suffix, mobfox.com
+host-suffix, my.mobfox.com
+
+# 魔窗
+host-suffix, magicwindow.cn
+
+# Mathtag
+host-KEYWORD, mathtag
+host-suffix, mathtag.com
+host-suffix, pixel.mathtag.com
+host-suffix, sync.mathtag.com
+
+# 艾德思奇（adSage）
+host-suffix, mobisage.cn
+host-suffix, config.mobisage.cn
+
+# MoPub（Twitter 公司旗下的移动广告服务平台）
+host-suffix, mopub.com
+
+# NetworkBench (听云)
+host-suffix, networkbench.com
+
+# NicoNico
+host, ads.nicovideo.jp
+
+# Onetad
+host-suffix, onetad.com
+host-suffix, code11.onetad.com
+host-suffix, code12.onetad.com
+host-suffix, pic1.onetad.com
+host-suffix, pic2.onetad.com
+host-suffix, pic3.onetad.com
+host-suffix, pic8.onetad.com
+host-suffix, ww10.onetad.com
+host-suffix, ww101.onetad.com
+host-suffix, ww11.onetad.com
+host-suffix, ww12.onetad.com
+host-suffix, ww13.onetad.com
+host-suffix, ww202.onetad.com
+host-suffix, ww34.onetad.com
+host-suffix, ww346.onetad.com
+host-suffix, ww360.onetad.com
+host-suffix, ww363.onetad.com
+host-suffix, ww366.onetad.com
+host-suffix, ww78.onetad.com
+host-suffix, ww8.onetad.com
+host-suffix, ww9.onetad.com
+host-suffix, wwv.onetad.com
+
+# OpenX
+host-suffix, openx.net
+
+# Optimizely
+host-suffix, optimizelyapis.com
+
+# Oracle
+host-suffix, bluekai.com
+
+# Pagechoice
+host-suffix, pagechoice.com
+host-suffix, pagechoice.net
+host-suffix, col.pagechoice.net
+host-suffix, dap.pagechoice.net
+host-suffix, images.pagechoice.net
+host-suffix, motu.pagechoice.net
+host-suffix, sit.pagechoice.net
+
+# Plista
+host-suffix, plista.com
+host-suffix, click-cn.plista.com
+host-suffix, farm-cn.plista.com
+
+# Pubnative
+host-suffix, pubnative.net
+
+# PopAds
+host-suffix, popads.net
+host-suffix, c1.popads.net
+host-suffix, c2.popads.net
+host-suffix, serve.popads.net
+
+# PubMatic
+host-suffix, pubmatic.com
+
+# Qtmojo
+host-suffix, qtmojo.cn
+host-suffix, 1.qtmojo.cn
+host-suffix, creatim.qtmojo.cn
+host-suffix, wmcdn.qtmojo.cn
+host-suffix, qtmojo.com
+
+# Qumi (趣米)
+host-suffix, qumi.com
+host-suffix, apt.qumi.com
+host-suffix, cut.qumi.com
+host-suffix, exp.qumi.com
+
+# Quantcast
+host-suffix, quantcount.com
+host-suffix, quantserve.com
+host-suffix, cms.quantserve.com
+host-suffix, edge.quantserve.com
+host-suffix, pixel.quantserve.com
+host-suffix, secure.quantserve.com
+
+# Rayjump
+host-suffix, rayjump.com
+host-suffix, net.rayjump.com
+host-suffix, setting.rayjump.com
+
+# Rubicon Project
+host-suffix, rubiconproject.com
+host-suffix, beacon-us-sjc1.rubiconproject.com
+host-suffix, eus.rubiconproject.com
+host-suffix, optimized-by.rubiconproject.com
+host-suffix, pixel.rubiconproject.com
+host-suffix, secure-assets.rubiconproject.com
+host-suffix, tap.rubiconproject.com
+host-suffix, tap-cdn.rubiconproject.com
+host-suffix, tap-t.rubiconproject.com
+host-suffix, token.rubiconproject.com
+host-suffix, usync.aws.rubiconproject.com
+
+# Smart AdServer
+host-suffix, smartadserver.com
+host-suffix, cdn1.smartadserver.com
+host-suffix, ww251.smartadserver.com
+host-suffix, ww881.smartadserver.com
+host-suffix, www6.smartadserver.com
+
+# Snapmobile
+host-suffix, snap.snapmobile.asia
+host-suffix, snapmobileasia.net
+host-suffix, selfie.snapmobileasia.net
+
+# StatCounter
+host-suffix, statcounter.com
+host-suffix, c.statcounter.com
+host-suffix, c1.statcounter.com
+host-suffix, c2.statcounter.com
+host-suffix, secure.statcounter.com
+
+# Segment
+host-suffix, segment.com
+host-suffix, segment.io
+host-suffix, cdn-settings.segment.com
+host-suffix, mobile-service.segment.com
+
+# Sigmob
+host-suffix, adservice.sigmob.cn
+
+# Sizmek
+host-suffix, serving-sys.com
+host-suffix, activity.serving-sys.com
+host-suffix, bs.serving-sys.com
+host-suffix, bsch.serving-sys.com
+host-suffix, datacapture.serving-sys.com
+host-suffix, ds.serving-sys.com
+host-suffix, ds-ll.serving-sys.com
+host-suffix, secure-ds.serving-sys.com
+host-suffix, us.bs.serving-sys.com
+
+# Smaato
+host-suffix, smaato.net
+
+# StartApp
+host-suffix, startapp.com
+host-suffix, startappexchange.com
+host-suffix, startappservice.com
+host-suffix, lp.startapp.com
+host-suffix, init.startappexchange.com
+host-suffix, dts.akamai.startappexchange.com
+host-suffix, images.startappservice.com
+host-suffix, req.startappservice.com
+
+# Taptica
+host-suffix, clk.taptica.com
+
+# TGBus
+host-suffix, vista.tgbusdata.cn
+host-suffix, vista.tgbus.com
+
+# Touclick
+host-suffix, touclick.com
+host-suffix, cap.touclick.com
+host-suffix, ver.touclick.com
+
+# Trafficfactory
+host-suffix, trafficfactory.biz
+host-suffix, media.trafficfactory.biz
+host-suffix, rpc-php.trafficfactory.biz
+
+# Trafficjunky
+host-suffix, trafficjunky.com
+host-suffix, trafficjunky.net
+host-suffix, media.trafficjunky.net
+host-suffix, vz-cdn.trafficjunky.net
+
+# TalkingData
+host-suffix, talkingdata.com
+host-suffix, talkingdata.net
+host-suffix, tenddata.com
+host-suffix, gaandroid.talkingdata.net
+host-suffix, tdcv3.talkingdata.net
+host-suffix, u.talkingdata.net
+host-suffix, cpatrk.net
+
+# Tapad
+host-suffix, tapad.com
+host-suffix, pixel.tapad.com
+
+# Tapjoy
+host-suffix, tapjoy.cn
+host-suffix, tapjoy.com
+host-suffix, tapjoyads.com
+host-suffix, ws.tapjoyads.com
+
+# 推啊 (Tuia)
+host-suffix, tuia.cn
+host-suffix, engine.tuia.cn
+host-suffix, yun.tuia.cn
+
+# VigLink
+host-suffix, viglink.com
+host-suffix, api.viglink.com
+host-suffix, cdn.viglink.com
+host, apicdn.viglink.com
+host, mc.viglink.com
+host, ns2.viglink.com
+host, ns3.viglink.com
+host, ns4.viglink.com
+host, qa.viglink.com
+
+# Voiceads
+host-suffix, agr.voiceads.cn
+host-suffix, ws.voiceads.cn
+host-suffix, voiceads.com
+
+# Vungle
+host-suffix, vungle.cn
+
+# Vpon
+host-suffix, vpon.com
+host-suffix, beta.vpon.com
+host-suffix, biz.vpon.com
+host-suffix, fw.vpon.com
+host-suffix, jira.vpon.com
+host-suffix, m.vpon.com
+host-suffix, tw.adon.vpon.com
+host-suffix, tw.api.vpon.com
+host-suffix, cn.pub.vpon.com
+host-suffix, tw.pub.vpon.com
+
+# Yandex
+host-suffix, st.yandexadexchange.net
+host-suffix, ads.yandex.com
+
+# Yengo
+host-suffix, st.yengo.com
+
+# 亿起发
+host-suffix, yiqifa.com
+
+# 优效平台
+host-suffix, youxiaoad.com
+host-suffix, api.youxiaoad.com
+host-suffix, source.youxiaoad.com
+host-suffix, ssp.youxiaoad.com
+host-suffix, sspapi.youxiaoad.com
+
+# 指点传媒
+host-suffix, zhidian3g.cn
+host-suffix, ad.zhidian3g.cn
+host-suffix, soft.zhidian3g.cn
+
+# 诸葛智能
+host, zgsdk.zhugeio.com
+
+# Zedo
+host-suffix, zedo.com
+host-suffix, d8.zedo.com
+host-suffix, z1.zedo.com
+
