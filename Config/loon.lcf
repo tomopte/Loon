@@ -4,7 +4,26 @@
 # Threads: https://www.threads.com/@tomopte
 # GitHub: https://github.com/tomopte/Loon
 # ==========================================
-
+#
+# 特色功能
+# 1. AI 分流：Google / OpenAI / Claude 等国外 AI 默认走 AI 策略组，
+#    组内有美国 / 日本 / 香港三个自动策略组可选，国内 AI（DeepSeek / 豆包 / Kimi / 通义等）走直连，互不干扰。
+# 2. Muse 优先：muse.ai / meta.ai / hatch-api.meta.ai 走美国策略组（United States），
+#    其余 Meta 服务（Facebook / Instagram / WhatsApp / Threads 等）走时延优选。
+# 3. 规则仓库化：常用分流规则按分类放在 Rules/*.lsr，改规则不用改配置，
+#    Loon 里刷新远程规则即生效。
+# 4. 地区自动分组：订阅节点按名称自动分到香港 / 日本 / 新加坡 / 美国 / 稀有地区，
+#    时延优选自动挑最快节点。
+# 5. Duolingo Max 解锁：自带插件解锁多邻国 Max 会员（国区端点已适配）。
+# 6. 去广告：自维护 blockAds 插件，拦截掌上英雄联盟、微店开屏等广告，
+#    活动弹（platstrongshell）不拦，活动页正常显示。
+# 7. 兜底：FINAL 走时延优选。
+#
+# 使用方法
+# 1. 在 [Remote Proxy] 填入自己的机场订阅，AI 组里选美国 / 日本 / 香港节点。
+# 2. 在 Loon 里导入本文件，更新远程规则和插件后启用。
+# 3. 不含任何个人订阅链接、节点地址和账号信息，可直接分享。
+#
 [General]
 # IP查询模式
 ip-mode = v4-only
@@ -83,8 +102,8 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 
 [Proxy]
 
-
 [Remote Proxy]
+# 你的机场订阅请粘贴回这里（原订阅链接不要发给别人，我这里留空）
 
 [Remote Filter]
 Sub-ALL = NameRegex, FilterKey = "^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|好友|失联|总计|重置|重新|设置|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic)(\d+)?\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
@@ -100,57 +119,53 @@ Sub-US = NameRegex, FilterKey = "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|
 Sub-RA = NameRegex, FilterKey = "^(?=.*(.))(?!.*((?i)🇭🇰|🇯🇵|🇸🇬|🇺🇸|香港|日本|川日|东京|大阪|泉日|埼玉|新加坡|狮|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|好友|失联|总计|重置|重新|设置|回国|校园|游戏|🎮|(\b(HK|HKG|Hong|MO|JP|JPN|Japan|SG|SGP|Singapore|US|USA|United States|America|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic)(\d+)?\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
 
 [Proxy Group]
-手动选择 = select,DIRECT,Hong Kong,Japan,Singapore,United States,Rare Areas,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/relay.png
 
-时延优选 = url-test,Hong Kong,Japan,Singapore,United States,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/loadbalance.png
 
-Global = select,Sub-ALL,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/londoneye.png
 
-Hong Kong = url-test,Sub-HK,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/skylines.png
 
-Japan = url-test,Sub-JP,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/torii.png
 
-Singapore = url-test,Sub-SG,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/merlion.png
 
-United States = url-test,Sub-US,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/christtheredeemer.png
+手动选择 = select,DIRECT,Hong Kong,Japan,Singapore,United States,Rare Areas,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/relay.png
 
-Rare Areas = select,Sub-RA,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/stonehenge.png
+时延优选 = url-test,Hong Kong,Japan,Singapore,United States,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/loadbalance.png
 
-AI = url-test,Japan,Singapore,United States,interval = 300,tolerance = 50,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/Anthropic.png
+Global = select,Sub-ALL,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/londoneye.png
+
+Hong Kong = url-test,Sub-HK,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/skylines.png
+
+Japan = url-test,Sub-JP,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/torii.png
+
+Singapore = url-test,Sub-SG,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/merlion.png
+
+United States = url-test,Sub-US,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/christtheredeemer.png
+
+Rare Areas = select,Sub-RA,img-url = https://raw.githubusercontent.com/drifthel/Loon/main/Assets/Icons/stonehenge.png
+
+AI = select,United States,Japan,Hong Kong,img-url = https://raw.githubusercontent.com/tomopte/Loon/main/Assets/Icons/Anthropic.png
+
 [Proxy Chain]
 
+
 [Rule]
-
-DOMAIN,amdc.m.taobao.com,DIRECT
-
-#苹果服务
-DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,itunes.apple.com,DIRECT
-DOMAIN-SUFFIX,icloud.com,DIRECT
-#抖音相关
-DOMAIN-SUFFIX,aliyuncs.com,DIRECT
-DOMAIN-SUFFIX,tiktok-live.oss-cn-chengdu.aliyuncs.com,DIRECT
-DOMAIN,dig.bdurl.net,DIRECT
-# Google / Gemini → 香港
+# 本地只留置顶规则，其余分流已移到仓库 Rules/ 远程规则，按分类管理
+# ===== Muse 优先：必须放在最前面 =====
+DOMAIN,hatch-api.meta.ai,United States
+DOMAIN-SUFFIX,muse.ai,United States
+DOMAIN-SUFFIX,meta.ai,United States
 
 FINAL,时延优选
 
-# Local Rule
-# Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,IP-CIDR6,IP-ASN
-# Strategy:DIRECT,Proxy,REJECT
-# Options:no-resolve(no-resolve(only for cidr))
-# IP-CIDR, 192.168.0.0/16, DIRECT
-# IP-CIDR, 10.0.0.0/8, DIRECT
-# IP-CIDR, 172.16.0.0/12, DIRECT
-# IP-CIDR, 127.0.0.0/8, DIRECT
-# IP-CIDR6, 2000::/3, DIRECT
-# 请勿在此添加GEOIP, cn, DIRECT
-# 请勿修改CN REGION规则的排序甚至删除
-
 [Remote Rule]
-
-
-
+# 第三方远程规则已移除，如需国内直连分流请自行添加
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Muse-US.lsr, policy=United States, tag=Muse-US, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/CN-AI-Direct.lsr, policy=DIRECT, tag=CN-AI-Direct, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/AI-Proxy.lsr, policy=AI, tag=AI-Proxy, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Meta.lsr, policy=时延优选, tag=Meta, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Direct.lsr, policy=DIRECT, tag=Direct, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Reject.lsr, policy=REJECT, tag=Reject, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Upstream/filter.lsr, policy=REJECT, tag=filter.lsr, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Upstream/AI.lsr, policy=AI, tag=AI, enabled=false
+https://raw.githubusercontent.com/tomopte/Loon/main/Rules/Upstream/Douyin.lsr, policy=DIRECT, tag=Douyin, enabled=true
 
 [Host]
 iosapps.itunes.apple.com = iosapps.itunes.apple.com.download.ks-cdn.com
@@ -167,9 +182,11 @@ updates.g.aaplimg.com = updates.cdn-apple.com.download.ks-cdn.com
 
 
 [Plugin]
-https://raw.githubusercontent.com/drifthel/Loon/main/Plugins/blockAds.plugin, enabled=true
-
-[MITM]
-# 公共分享版不包含个人CA证书、私钥或密码。
-# 如需使用MITM，请在自己的Loon设备中单独生成并配置证书。
-skip-server-cert-verify = false
+# 第三方 .lpx 插件已移除，如需去广告插件请自行添加
+https://raw.githubusercontent.com/tomopte/Loon/main/Plugins/duolingo-max.plugin, enabled=true
+https://raw.githubusercontent.com/tomopte/Loon/main/Plugins/blockAds.plugin, enabled=true
+https://rucu6.pages.dev/Plugins/webpage.lpx, enabled=true
+https://rucu6.pages.dev/Plugins/myblockads.lpx, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.lnplugin, enabled=true
+https://loon.103516.xyz/Plugin/Sub-Store.lpx, policy=时延优选, enabled=true
+https://loon.103516.xyz/Plugin/BoxJs.lpx, policy=时延优选, enabled=true
