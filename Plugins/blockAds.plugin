@@ -1,6 +1,6 @@
 #!name=广告拦截&净化合集
 #!desc=(支持约730款APP/小程序)针对部分APP和小程序广告进行拦截，某些APP要清除缓存或者重新安装拦截广告才会生效！规则明细可以查看本插件的注释
-#!author=奶思[https://github.com/fmz200]
+#!author=奶思[https://github.com/fmz200] · 维护者 @tomopte
 # Original Author: fmz200
 # Original Project: https://github.com/fmz200/wool_scripts
 # Modified by: tomopte
@@ -7598,6 +7598,8 @@ http:\/\/.+\.gamersky.com/.+/lists/getListElements response-body-json-jq '.listE
 ^https?:\/\/us\.l\.qq\.com\/exapp reject-200
 ^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) reject-200
 # ^https?:\/\/mlol\.qt\.qq.com\/go\/recommend reject
+# 开屏接口 platflashbox（只拦开屏，不拦 platstrongshell 活动弹）
+^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend\/platflashbox reject
 
 # > 掌阅
 # hostname = ih2.ireader.com, book.img.ireader.com
