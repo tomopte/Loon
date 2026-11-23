@@ -1,8 +1,8 @@
 #!name=Duolingo Max 解锁
 #!desc=解锁 Duolingo Max 会员
-#!author=Takagivegeta
+#!author=Takagivegeta · 维护者 @tomopte
+#!homepage=https://github.com/tomopte
 #!icon=https://d35aaqx5ub95lt.cloudfront.net/images/duolingo-touch-icon2.png
-# 维护者：@tomopte https://github.com/tomopte
 
 [MITM]
 hostname = ios-api-*.duolingo.com, ios-api-*.duolingo.cn, api*.duolingo.com, api*.duolingo.cn
