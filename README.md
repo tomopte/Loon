@@ -61,7 +61,6 @@
 | [自定义广告过滤](https://www.nsloon.com/openloon/import?plugin=https%3A%2F%2Fraw.githubusercontent.com%2Fdrifthel%2FLoon%2Fmain%2FPlugins%2FblockAds.plugin) | 自定义广告过滤规则 |
 | [Duolingo Max 解锁](https://www.nsloon.com/openloon/import?plugin=https%3A%2F%2Fraw.githubusercontent.com%2Ftomopte%2FLoon%2Fmain%2FPlugins%2Fduolingo-max.plugin) | 解锁 Duolingo Max 会员 · [查看源码](https://github.com/tomopte/Loon/blob/main/Plugins/duolingo-max.plugin) |
 
-- 广告过滤插件维护者：[@tomopte](https://github.com/tomopte)
 - 掌上英雄联盟开屏：仅拦截 `mlol.qt.qq.com/go/recommend/platflashbox` 开屏接口，`platstrongshell` 活动弹不拦截，活动页正常显示。
 
 
